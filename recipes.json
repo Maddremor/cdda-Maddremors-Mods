@@ -1,0 +1,11 @@
+[
+{
+    "type": "uncraft",
+    "result": "rope_6",
+    "skill_used": "survival",
+    "difficulty": 0,
+    "time": 10,
+    "qualities" : [{"id":"CUT","level":1}],
+    "components": [[[ "thread", 1800 ]]]
+}
+]

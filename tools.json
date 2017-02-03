@@ -1,0 +1,17 @@
+[
+  {
+    "id": "magic_jack",
+    "type": "TOOL",
+    "name": "magic jack",
+    "description": "Magic car jack of awesome",
+    "material": "steel",
+    "symbol": ";",
+    "color": "light_gray",
+    "weight": 0,
+    "volume": 0,
+    "price": 0,
+    "bashing": 0,
+    "to_hit": -2,
+    "qualities": [ ["JACK", 1000 ], [ "GLARE", 2 ] ]
+  }
+]
