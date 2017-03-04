@@ -1,0 +1,73 @@
+[
+  {
+    "type" : "vehicle_part",
+    "copy-from" : "omnicam",
+    "override": true,
+    "id" : "omnicam",
+    "name" : "security camera",
+    "location" : "anywhere"
+  },
+  {
+    "type" : "vehicle_part",
+    "override": true,
+    "id" : "inboard_mirror",
+    "name" : "inboard mirror",
+    "location" : "anywhere"
+  },
+  {
+    "type": "vehicle_part",
+    "copy-from" : "tank",
+    "id": "stacked_tank_1",
+    "name" : "first stacked 60L tank",
+    "delete": { "location" : [ "fuel_source" ] },
+    "flags": [ "OBSTACLE", "FAUCET" ]
+  },
+  {
+    "type": "vehicle_part",
+    "copy-from" : "stacked_tank_1",
+    "id": "stacked_tank_2",
+    "name" : "second stacked 60L tank"
+  },
+  {
+    "type": "vehicle_part",
+    "copy-from" : "stacked_tank_1",
+    "id": "stacked_tank_3",
+    "name" : "third stacked 60L tank"
+  },
+  {
+    "type": "vehicle_part",
+    "copy-from" : "stacked_tank_1",
+    "id": "stacked_tank_4",
+    "name" : "fourth stacked 60L tank"
+  },
+  {
+    "type": "vehicle_part",
+    "copy-from" : "surv_station_t",
+    "override": true,
+    "id": "surv_station_t",
+    "name": "Survivor's Station Unit",
+    "extend": {
+      "tools":[
+        "anvil",
+        "boltcutters",
+        "can_sealer",
+        "carding_paddles",
+        "chipper",
+        "crucible",
+        "distaff_spindle",
+        "mold_plastic",
+        "mold_metal",
+        "pastaextruder",
+        "polisher",
+        "puller",
+        "still",
+        "swage",
+        "syringe",
+        "tongs",
+        "waffleiron",
+        "WASHCLOTHES"
+      ]
+    },
+    "extend": {"flags": [] },
+  }
+]
