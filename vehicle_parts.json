@@ -60,7 +60,9 @@
         "syringe",
         "tongs",
         "waffleiron",
-        "large_repairkit"
+        "large_repairkit",
+        "multi_cooker",
+        "atomic_coffeepot"
       ]
     }
   },
