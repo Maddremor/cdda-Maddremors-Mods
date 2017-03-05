@@ -6,4 +6,5 @@
         "author": "Maddremor",
         "description": "Test Message Please Ignore",
         "path": ""
+        "dependencies": [ "dda", "Cata++" ]
     }
