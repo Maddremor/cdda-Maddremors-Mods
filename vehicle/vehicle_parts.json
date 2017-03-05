@@ -41,7 +41,7 @@
     "copy-from" : "surv_station_t",
     "id": "surv_station_t_mk2",
     "name": "Survivor's Station Unit MkII",
-    "item": "surv_station_mk2"
+    "item": "surv_station_mk2",
     "extend": {
       "tools":[
         "anvil",

@@ -1,0 +1,18 @@
+[
+  {
+    "id": "magic_jack",
+    "type": "TOOL",
+    "name": "magic jack",
+    "//": "Because I cannot be bothered with using jacks",
+    "description": "Magic anti-gravity car jack of lazy.",
+    "material": "steel",
+    "symbol": ";",
+    "color": "light_gray",
+    "weight": 0,
+    "volume": 0,
+    "price": 0,
+    "bashing": 0,
+    "to_hit": -2,
+    "qualities": [ ["JACK", 1000 ] ]
+  }
+]

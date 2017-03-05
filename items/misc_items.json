@@ -2,7 +2,7 @@
   {
     "type": "GENERIC",
     "id": "surv_station_mk2",
-    "copy-from": "surv_station"
+    "copy-from": "surv_station",
     "//": "Actual item",
     "name": "Survivor's Station MkII",
     "description": "A makeshift vehicle mountable station that comprises of many utilities all compressesd into a single unit. Upgraded version."

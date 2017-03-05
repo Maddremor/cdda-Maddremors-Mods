@@ -42,5 +42,25 @@
       [ [ "large_repairkit", 1 ] ],
       [ [ "atomic_coffeepot", 1 ] ]
     ]
+  },
+  {
+    "result": "union_outfit",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_SUIT",
+    "skill_used": "tailor",
+    "difficulty": 1,
+    "time": 3500,
+    "reversible": true,
+    "decomp_learn": 0,
+    "book_learn": [ [ "mag_tailor", 0 ], [ "manual_tailor", 0 ], [ "textbook_tailor", 0 ] ],
+    "using": [ [ "filament", 50 ] ],
+    "qualities": [ { "id": "SEW", "level": 1 } ],
+    "components": [
+      [ [ "union_suit", 1 ] ],
+      [ [ "socks", 2 ] ],
+      [ [ "gloves_liner", 1 ] ],
+      [ [ "balclava", 1 ] ]
+    ]
   }
 ]
