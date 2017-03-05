@@ -1,3 +1,46 @@
 [
-  
+  {
+    "type": "recipe",
+    "result": "surv_station_mk2",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_PARTS",
+    "skill_used": "fabrication",
+    "skills_required": [ [ "mechanics", 4 ], [ "fabrication", 5 ] ],
+    "difficulty": 6,
+    "time": 30000,
+    "reversible": false,
+    "autolearn": true,
+    "book_learn": [ [ "recipe_surv", 5 ] ],
+    "qualities": [ 
+      { "id": "HAMMER", "level": 2, "amount": 1 },
+      { "id": "SAW_M", "level": 1, "amount": 1 },
+      { "id": "WRENCH", "level": 1, "amount": 1 }
+    ],
+    "tools": [
+      [ [ "goggles_welding", -1 ] ],
+      [ [ "welder", 100 ], [ "welder_crude", 150 ], [ "toolset", 150 ] ]
+    ],
+    "components": [ 
+      [ [ "surv_station", 1 ] ],
+      [ [ "anvil", 1 ] ],
+      [ [ "boltcutters", 1 ] ],
+      [ [ "can_sealer", 1 ] ],
+      [ [ "carding_paddles", 1 ] ],
+      [ [ "chipper", 1 ] ],
+      [ [ "crucible", 1 ], [ "crucible_clay", 1 ] ],
+      [ [ "distaff_spindle", 1 ] ],
+      [ [ "mold_plastic", 1 ] ],
+      [ [ "mold_metal", 1 ] ],
+      [ [ "pastaextruder", 1 ] ],
+      [ [ "polisher", 1 ] ],
+      [ [ "puller", 1 ] ],
+      [ [ "still", 1 ] ],
+      [ [ "swage", 1 ] ],
+      [ [ "syringe", 1 ] ],
+      [ [ "tongs", 1 ] ],
+      [ [ "waffleiron", 1 ] ],
+      [ [ "large_repairkit", 1 ] ],
+      [ [ "atomic_coffeepot", 1 ] ]
+    ]
+  }
 ]

@@ -10,7 +10,7 @@
     "durability": 150,
     "size": 60000,
     "damage_modifier": 80,
-    "flags": [ "NEEDS_BATTERY_MOUNT", "TOOL_NONE" ]
+    "flags": [ "NEEDS_BATTERY_MOUNT", "TOOL_NONE" ],
     "requirements": { "install": { "time": 1000 } },
     "breaks_into": [
       { "item": "steel_lump", "count": [ 2, 2 ] },
@@ -39,8 +39,9 @@
   {
     "type": "vehicle_part",
     "copy-from" : "surv_station_t",
-    "id": "surv_station_v2",
+    "id": "surv_station_t_mk2",
     "name": "Survivor's Station Unit MkII",
+    "item": "surv_station_mk2"
     "extend": {
       "tools":[
         "anvil",
