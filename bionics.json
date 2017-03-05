@@ -1,11 +1,9 @@
 [
   {
+    "id": "bio_scanner",
     "type": "bionic",
-    "copy-from": "bio_watch",
-    "override": true,
-    "id": "bio_watch",
     "name": "Internal Scanner",
-    "description": "You have been equipped with an internal atomic clock, barometer and laser thermometer. You will always know the current time, and measuring temperature and air pressure has never been easier. Silent internal alarm clock is now included!",
+    "description": "You have been equipped with an internal hydrometer, barometer and laser thermometer. Measuring temperature, humidity, and air pressure has never been easier!",
     "occupied_bodyparts": [ [ "HEAD", 1 ] ],
     "toggled": true,
     "fake_item": "fake_watch"

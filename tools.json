@@ -12,6 +12,6 @@
     "price": 0,
     "bashing": 0,
     "to_hit": -2,
-    "qualities": [ ["JACK", 1000 ], [ "GLARE", 2 ] ]
+    "qualities": [ ["JACK", 1000 ] ]
   }
 ]

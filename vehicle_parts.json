@@ -1,20 +1,5 @@
 [
   {
-    "type" : "vehicle_part",
-    "copy-from" : "omnicam",
-    "override": true,
-    "id" : "omnicam",
-    "name" : "security camera",
-    "location" : "anywhere"
-  },
-  {
-    "type" : "vehicle_part",
-    "override": true,
-    "id" : "inboard_mirror",
-    "name" : "inboard mirror",
-    "location" : "anywhere"
-  },
-  {
     "type": "vehicle_part",
     "copy-from" : "tank",
     "id": "stacked_tank_1",
@@ -43,9 +28,8 @@
   {
     "type": "vehicle_part",
     "copy-from" : "surv_station_t",
-    "override": true,
-    "id": "surv_station_t",
-    "name": "Survivor's Station Unit",
+    "id": "surv_station_v2",
+    "name": "Survivor's Station Unit MkII",
     "extend": {
       "tools":[
         "anvil",
@@ -64,10 +48,8 @@
         "swage",
         "syringe",
         "tongs",
-        "waffleiron",
-        "WASHCLOTHES"
+        "waffleiron"
       ]
-    },
-    "extend": {"flags": [] },
+    }
   }
 ]

@@ -1,2 +1,2 @@
 # MaddreMod
-Essentially a cheat mod for Cataclysm: Dark Days Ahead
+Misc tweaks made without consideration to balance.

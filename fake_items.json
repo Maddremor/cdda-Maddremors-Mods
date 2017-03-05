@@ -1,7 +1,6 @@
 [
   {
     "id": "toolset",
-    "override": true,
     "copy-from": "toolset",
     "type": "TOOL",
     "name": "integrated toolset",
@@ -52,11 +51,10 @@
     }
   },
   {
-    "id": "toolset",
+    "id": "fake_watch",
     "copy-from": "fake_item",
     "type": "TOOL",
     "name": "internal scanner",
-    "flags": "TRADER_AVOID",
-    "flags": [ "BAROMETER", "THERMOMETER", "HYGROMETER" ,"WATCH"]
-},
+    "flags": [ "TRADER_AVOID", "BAROMETER", "THERMOMETER", "HYGROMETER" ,"WATCH" ]
+  }
 ]
