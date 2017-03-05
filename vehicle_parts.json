@@ -1,28 +1,39 @@
 [
   {
+    "id": "racked_tank_1",
     "type": "vehicle_part",
-    "copy-from" : "tank",
-    "id": "stacked_tank_1",
-    "name" : "first stacked 60L tank",
-    "delete": { "location" : [ "fuel_source" ] },
-    "flags": [ "OBSTACLE", "FAUCET" ]
+    "name": "first stacked 60L tank",
+    "item": "metal_tank",
+    "symbol": "O",
+    "broken_color": "red",
+    "difficulty": 1,
+    "durability": 150,
+    "size": 60000,
+    "damage_modifier": 80,
+    "flags": [ "NEEDS_BATTERY_MOUNT", "TOOL_NONE" ]
+    "requirements": { "install": { "time": 1000 } },
+    "breaks_into": [
+      { "item": "steel_lump", "count": [ 2, 2 ] },
+      { "item": "steel_chunk", "count": [ 1, 2 ] },
+      { "item": "scrap", "count": [ 1, 5 ] }
+    ]
   },
   {
     "type": "vehicle_part",
-    "copy-from" : "stacked_tank_1",
-    "id": "stacked_tank_2",
+    "copy-from" : "racked_tank_1",
+    "id": "racked_tank_2",
     "name" : "second stacked 60L tank"
   },
   {
     "type": "vehicle_part",
-    "copy-from" : "stacked_tank_1",
-    "id": "stacked_tank_3",
+    "copy-from" : "racked_tank_1",
+    "id": "racked_tank_3",
     "name" : "third stacked 60L tank"
   },
   {
     "type": "vehicle_part",
-    "copy-from" : "stacked_tank_1",
-    "id": "stacked_tank_4",
+    "copy-from" : "racked_tank_1",
+    "id": "racked_tank_4",
     "name" : "fourth stacked 60L tank"
   },
   {
@@ -48,8 +59,25 @@
         "swage",
         "syringe",
         "tongs",
-        "waffleiron"
+        "waffleiron",
+        "large_repairkit"
       ]
     }
+  },
+  {
+    "type" : "vehicle_part",
+    "id" : "tank_rack",
+    "name" : "tank rack",
+    "symbol" : "8",
+    "color" : "brown",
+    "broken_symbol" : "#",
+    "broken_color" : "brown",
+    "damage_modifier" : 80,
+    "durability" : 350,
+    "item" : "frame",
+    "difficulty" : 1,
+    "location" : "center",
+    "flags" : ["OBSTACLE", "FAUCET", "BATTERY_MOUNT"],
+    "breaks_into": "ig_vp_frame"
   }
 ]
