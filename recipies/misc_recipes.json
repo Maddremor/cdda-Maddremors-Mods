@@ -62,5 +62,32 @@
       [ [ "gloves_liner", 1 ] ],
       [ [ "balclava", 1 ] ]
     ]
+  },
+  {
+    "type" : "recipe",
+    "id_suffix": " batch",
+    "result": "canister_empty",
+    "byproducts": [ [ "canister_empty", 9 ], [ "scrap", 8 ] ],
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_CONTAINERS",
+    "skill_used": "fabrication",
+    "difficulty": 7,
+    "time": 90000,
+    "autolearn": true,
+    "batch_time_factors": [50, 5],
+    "qualities":[
+      { "id": "HAMMER","level":3 },
+      { "id": "CHISEL", "level": 3 },
+      { "id": "SAW_M","level":2 }
+    ], 
+    "tools": [
+      [ ["tongs", -1] ],
+      [ ["anvil", -1] ],
+      [ ["crucible", -1], ["crucible_clay", -1] ],
+      [ ["forge", 150], [ "oxy_torch", 30] ]
+    ],
+    "components": [
+      [ [ "sheet_metal", 2 ] ]
+    ]
   }
 ]
