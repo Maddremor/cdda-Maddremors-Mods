@@ -1,15 +1,29 @@
 [
   {
-        "id": "seed_poppy",
-        "copy-from": "seed",
-        "type": "COMESTIBLE",
-        "name": "mutated poppy seed",
-        "name_plural": "mutated poppy seeds",
-        "description": "Some mutated poppy seeds.",
-        "seed_data": {
-            "plant_name": "poppy_bud",
-            "fruit": "mutated poppy",
-            "grow": 120
-        }
-}
+    "id": "seed_poppy",
+    "copy-from": "seed",
+    "type": "COMESTIBLE",
+    "name": "mutated poppy seed",
+    "name_plural": "mutated poppy seeds",
+    "description": "Some mutated poppy seeds.",
+    "seed_data": {
+      "plant_name": "poppy_bud",
+      "fruit": "mutated poppy",
+      "grow": 120
+    }
+  },
+  {
+    "id": "seed_bamboo",
+    "copy-from": "seed",
+    "type": "COMESTIBLE",
+    "name": "bamboo seed",
+    "name_plural": "bamboo seeds",
+    "description": "Some bamboo seeds.",
+    "seed_data": {
+      "plant_name": "stick",
+      "fruit": "bamboo",
+      "byproducts": [ "splinter" ],
+      "grow": 120
+    }
+  }
 ]
