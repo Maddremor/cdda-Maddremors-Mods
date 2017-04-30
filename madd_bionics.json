@@ -1,10 +1,16 @@
 [
   {
+    "id": "bio_meteorologist",
+    "type": "bionic",
+    "copy-from": "bio_meteorologist",
+    "name": "Weather Reader",
+    "included_bionics": ["bio_scanner"]
+  },
+  {
     "id": "bio_scanner",
     "type": "bionic",
     "name": "Internal Scanner",
     "description": "You have been equipped with an internal hydrometer, barometer and laser thermometer. Measuring temperature, humidity, and air pressure has never been easier!",
-    "occupied_bodyparts": [ [ "HEAD", 1 ] ],
     "fake_item": "fake_scanner"
   }
 ]
