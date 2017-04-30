@@ -11,6 +11,7 @@
     "time": 1000,
     "result_mult": 12,
     "autolearn": true,
+    "flags": [ "BLIND_EASY" ],
     "qualities":[
         {"id":"CONTAIN","level":1}
     ],
@@ -31,6 +32,7 @@
     "time": 1000,
     "result_mult": 75,
     "autolearn": true,
+    "flags": [ "BLIND_EASY" ],
     "qualities":[
         {"id":"CONTAIN","level":1}
     ],
@@ -51,6 +53,7 @@
     "time": 1000,
     "result_mult": 62,
     "autolearn": true,
+    "flags": [ "BLIND_EASY" ],
     "qualities":[
         {"id":"CONTAIN","level":1}
     ],
@@ -71,6 +74,7 @@
     "time": 1000,
     "result_mult": 60,
     "autolearn": true,
+    "flags": [ "BLIND_EASY" ],
     "qualities":[
         {"id":"CONTAIN","level":1}
     ],
@@ -91,6 +95,7 @@
     "time": 1000,
     "result_mult": 1500,
     "autolearn": true,
+    "flags": [ "BLIND_EASY" ],
     "qualities":[
         {"id":"CONTAIN","level":1}
     ],
