@@ -3,19 +3,100 @@
     "type" : "recipe",
     "result": "charcoal",
     "id_suffix" : "sacked",
+    "container": "bag_canvas",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_OTHER",
     "skill_used": "fabrication",
     "difficulty": 0,
     "time": 1000,
-    "result_mult": 2,
+    "result_mult": 12,
     "autolearn": true,
     "qualities":[
         {"id":"CONTAIN","level":1}
     ],
     "components": [
       [ [ "bag_canvas", 1 ] ],
-      [ [ "charcoal", 1 ] ]
+      [ [ "charcoal", 600 ] ]
+    ]
+  },
+  {
+    "type" : "recipe",
+    "result": "salt",
+    "id_suffix" : "sacked",
+    "container": "bag_canvas",
+    "category": "CC_FOOD",
+    "subcategory": "CSC_FOOD_OTHER",
+    "skill_used": "fabrication",
+    "difficulty": 0,
+    "time": 1000,
+    "result_mult": 75,
+    "autolearn": true,
+    "qualities":[
+        {"id":"CONTAIN","level":1}
+    ],
+    "components": [
+      [ [ "bag_canvas", 1 ] ],
+      [ [ "salt", 7500 ] ]
+    ]
+  },
+  {
+    "type" : "recipe",
+    "result": "oatmeal",
+    "id_suffix" : "sacked",
+    "container": "bag_canvas",
+    "category": "CC_FOOD",
+    "subcategory": "CSC_FOOD_OTHER",
+    "skill_used": "fabrication",
+    "difficulty": 0,
+    "time": 1000,
+    "result_mult": 62,
+    "autolearn": true,
+    "qualities":[
+        {"id":"CONTAIN","level":1}
+    ],
+    "components": [
+      [ [ "bag_canvas", 1 ] ],
+      [ [ "oatmeal", 992 ] ]
+    ]
+  },
+  {
+    "type" : "recipe",
+    "result": "flour",
+    "id_suffix" : "sacked",
+    "container": "bag_canvas",
+    "category": "CC_FOOD",
+    "subcategory": "CSC_FOOD_OTHER",
+    "skill_used": "fabrication",
+    "difficulty": 0,
+    "time": 1000,
+    "result_mult": 60,
+    "autolearn": true,
+    "qualities":[
+        {"id":"CONTAIN","level":1}
+    ],
+    "components": [
+      [ [ "bag_canvas", 1 ] ],
+      [ [ "flour", 600 ] ]
+    ]
+  },
+  {
+    "type" : "recipe",
+    "result": "weed",
+    "id_suffix" : "sacked",
+    "container": "bag_canvas",
+    "category": "CC_CHEM",
+    "subcategory": "CSC_CHEM_OTHER",
+    "skill_used": "fabrication",
+    "difficulty": 0,
+    "time": 1000,
+    "result_mult": 1500,
+    "autolearn": true,
+    "qualities":[
+        {"id":"CONTAIN","level":1}
+    ],
+    "components": [
+      [ [ "bag_canvas", 1 ] ],
+      [ [ "weed", 7500 ] ]
     ]
   }
 ]
