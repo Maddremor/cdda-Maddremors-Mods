@@ -28,5 +28,20 @@
     ],
     "pre_terrain" : "t_pit",
     "post_terrain" : "t_water_dp"
+  },
+  {
+    "type" : "construction",
+    "description" : "Assemble steel compactor",
+    "category" : "FURN",
+    "required_skills" : [ [ "mechanics", 5 ] ],
+    "time" : 30,
+    "qualities": [
+      [ { "id": "WRENCH", "level": 2 } ]
+    ],
+    "components" : [
+      [ [ "madd_steel_compactor", 1 ] ]
+    ],
+    "pre_special" : "check_empty",
+    "post_terrain" : "t_recycler"
   }
 ]

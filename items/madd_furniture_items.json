@@ -1,0 +1,17 @@
+[
+  {
+    "type":"GENERIC",
+    "id" : "madd_steel_compactor",
+    "name" : "steel compactor",
+    "description" : "A large machine capable of breaking down steel items and extrudning differnt sizes of metal.",
+    "weight" : 500000,
+    "to_hit" : -4,
+    "color" : "green",
+    "symbol" : "&",
+    "material" : ["steel", "plastic"],
+    "volume" : 1000,
+    "bashing" : 2,
+    "category" : "veh_parts",
+    "price" : 500000
+  }
+]
