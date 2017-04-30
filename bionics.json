@@ -5,7 +5,6 @@
     "name": "Internal Scanner",
     "description": "You have been equipped with an internal hydrometer, barometer and laser thermometer. Measuring temperature, humidity, and air pressure has never been easier!",
     "occupied_bodyparts": [ [ "HEAD", 1 ] ],
-    "toggled": true,
     "fake_item": "fake_scanner"
   }
 ]

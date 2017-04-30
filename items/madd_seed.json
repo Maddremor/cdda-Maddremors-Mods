@@ -7,8 +7,8 @@
     "name_plural": "mutated poppy seeds",
     "description": "Some mutated poppy seeds.",
     "seed_data": {
-      "plant_name": "poppy_bud",
-      "fruit": "mutated poppy",
+      "plant_name": "mutated poppy",
+      "fruit": "poppy_bud",
       "grow": 120
     }
   },
@@ -20,8 +20,8 @@
     "name_plural": "bamboo seeds",
     "description": "Some bamboo seeds.",
     "seed_data": {
-      "plant_name": "stick",
-      "fruit": "bamboo",
+      "plant_name": "bamboo",
+      "fruit": "stick",
       "byproducts": [ "splinter" ],
       "grow": 120
     }

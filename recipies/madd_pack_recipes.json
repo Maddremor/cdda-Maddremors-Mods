@@ -1,0 +1,21 @@
+[
+  {
+    "type" : "recipe",
+    "result": "charcoal",
+    "id_suffix" : "sacked",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_OTHER",
+    "skill_used": "fabrication",
+    "difficulty": 0,
+    "time": 1000,
+    "result_mult": 2,
+    "autolearn": true,
+    "qualities":[
+        {"id":"CONTAIN","level":1}
+    ],
+    "components": [
+      [ [ "bag_canvas", 1 ] ],
+      [ [ "charcoal", 1 ] ]
+    ]
+  }
+]
