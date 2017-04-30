@@ -1,0 +1,15 @@
+[
+  {
+        "id": "seed_poppy",
+        "copy-from": "seed",
+        "type": "COMESTIBLE",
+        "name": "mutated poppy seed",
+        "name_plural": "mutated poppy seeds",
+        "description": "Some mutated poppy seeds.",
+        "seed_data": {
+            "plant_name": "poppy_bud",
+            "fruit": "mutated poppy",
+            "grow": 120
+        }
+}
+]

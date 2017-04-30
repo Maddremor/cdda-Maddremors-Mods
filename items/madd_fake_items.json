@@ -6,17 +6,12 @@
     "name": "integrated toolset",
     "use_action": [
       "HAMMER", 
-      "CROWBAR", 
-      "GUN_REPAIR", 
-      "SEW_ADVANCED",
+      "CROWBAR",
       "HACKSAW",
       "BOLTCUTTERS",
       "HACKSAW",
       "HOTPLATE",
       "LUMBER",
-      "MOP",
-      "SHAVEKIT",
-      "HAIRKIT",
       {
         "type": "repair_item",
         "item_action_type": "repair_fabric",
