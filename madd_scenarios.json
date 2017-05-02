@@ -1,0 +1,11 @@
+[
+  {
+    "type": "scenario",
+    "ident": "madd_freeform",
+    "name": "Freeform",
+    "points": 1,
+    "description": "Test scenario, please ignore.",
+    "start_name": "Freeform",
+    "allowed_locs": [ "forest" ]
+  }
+]

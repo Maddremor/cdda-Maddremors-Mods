@@ -2,8 +2,13 @@
   {
     "id": "bio_meteorologist",
     "type": "bionic",
-    "copy-from": "bio_meteorologist",
     "name": "Weather Reader",
+    "description": "A multitude of scientific instruments and sensors collect environmental data.  The data is compiled and presented as a simple readout of the current weather.  It also passively tells you your external temperature.",
+    "occupied_bodyparts": [
+      [ "TORSO", 1 ],
+      [ "HEAD", 1 ]
+    ],
+    "act_cost": 10,
     "included_bionics": ["bio_scanner"]
   },
   {
