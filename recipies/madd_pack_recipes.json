@@ -22,6 +22,27 @@
   },
   {
     "type" : "recipe",
+    "result": "sugar",
+    "id_suffix" : "sacked",
+    "container": "bag_canvas",
+    "category": "CC_FOOD",
+    "subcategory": "CSC_FOOD_OTHER",
+    "skill_used": "fabrication",
+    "difficulty": 0,
+    "time": 1000,
+    "result_mult": 75,
+    "autolearn": true,
+    "flags": [ "BLIND_EASY" ],
+    "qualities":[
+        {"id":"CONTAIN","level":1}
+    ],
+    "components": [
+      [ [ "bag_canvas", 1 ] ],
+      [ [ "sugar", 7500 ] ]
+    ]
+  },
+  {
+    "type" : "recipe",
     "result": "salt",
     "id_suffix" : "sacked",
     "container": "bag_canvas",
