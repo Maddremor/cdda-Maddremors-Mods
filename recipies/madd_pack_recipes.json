@@ -1,128 +1,116 @@
 [
   {
-    "type" : "recipe",
     "result": "charcoal",
-    "id_suffix" : "sacked",
-    "container": "bag_canvas",
+    "type": "recipe",
+    "id_suffix": "sacked",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_OTHER",
     "skill_used": "fabrication",
     "difficulty": 0,
     "time": 1000,
-    "result_mult": 12,
     "autolearn": true,
-    "flags": [ "BLIND_EASY" ],
-    "qualities":[
-        {"id":"CONTAIN","level":1}
-    ],
+    "container": "bag_canvas",
+    "result_mult": 12,
+    "qualities": [ { "id": "CONTAIN", "level": 1 } ],
     "components": [
       [ [ "bag_canvas", 1 ] ],
       [ [ "charcoal", 600 ] ]
-    ]
+    ],
+    "flags": [ "BLIND_EASY" ]
   },
   {
-    "type" : "recipe",
     "result": "sugar",
-    "id_suffix" : "sacked",
-    "container": "bag_canvas",
+    "type": "recipe",
+    "id_suffix": "sacked",
     "category": "CC_FOOD",
     "subcategory": "CSC_FOOD_OTHER",
     "skill_used": "fabrication",
     "difficulty": 0,
     "time": 1000,
-    "result_mult": 75,
     "autolearn": true,
-    "flags": [ "BLIND_EASY" ],
-    "qualities":[
-        {"id":"CONTAIN","level":1}
-    ],
+    "container": "bag_canvas",
+    "result_mult": 75,
+    "qualities": [ { "id": "CONTAIN", "level": 1 } ],
     "components": [
       [ [ "bag_canvas", 1 ] ],
       [ [ "sugar", 7500 ] ]
-    ]
+    ],
+    "flags": [ "BLIND_EASY" ]
   },
   {
-    "type" : "recipe",
     "result": "salt",
-    "id_suffix" : "sacked",
-    "container": "bag_canvas",
+    "type": "recipe",
+    "id_suffix": "sacked",
     "category": "CC_FOOD",
     "subcategory": "CSC_FOOD_OTHER",
     "skill_used": "fabrication",
     "difficulty": 0,
     "time": 1000,
-    "result_mult": 75,
     "autolearn": true,
-    "flags": [ "BLIND_EASY" ],
-    "qualities":[
-        {"id":"CONTAIN","level":1}
-    ],
+    "container": "bag_canvas",
+    "result_mult": 75,
+    "qualities": [ { "id": "CONTAIN", "level": 1 } ],
     "components": [
       [ [ "bag_canvas", 1 ] ],
       [ [ "salt", 7500 ] ]
-    ]
+    ],
+    "flags": [ "BLIND_EASY" ]
   },
   {
-    "type" : "recipe",
     "result": "oatmeal",
-    "id_suffix" : "sacked",
-    "container": "bag_canvas",
+    "type": "recipe",
+    "id_suffix": "sacked",
     "category": "CC_FOOD",
     "subcategory": "CSC_FOOD_OTHER",
     "skill_used": "fabrication",
     "difficulty": 0,
     "time": 1000,
-    "result_mult": 62,
     "autolearn": true,
-    "flags": [ "BLIND_EASY" ],
-    "qualities":[
-        {"id":"CONTAIN","level":1}
-    ],
+    "container": "bag_canvas",
+    "result_mult": 62,
+    "qualities": [ { "id": "CONTAIN", "level": 1 } ],
     "components": [
       [ [ "bag_canvas", 1 ] ],
       [ [ "oatmeal", 992 ] ]
-    ]
+    ],
+    "flags": [ "BLIND_EASY" ]
   },
   {
-    "type" : "recipe",
     "result": "flour",
-    "id_suffix" : "sacked",
-    "container": "bag_canvas",
+    "type": "recipe",
+    "id_suffix": "sacked",
     "category": "CC_FOOD",
     "subcategory": "CSC_FOOD_OTHER",
     "skill_used": "fabrication",
     "difficulty": 0,
     "time": 1000,
-    "result_mult": 60,
     "autolearn": true,
-    "flags": [ "BLIND_EASY" ],
-    "qualities":[
-        {"id":"CONTAIN","level":1}
-    ],
+    "container": "bag_canvas",
+    "result_mult": 60,
+    "qualities": [ { "id": "CONTAIN", "level": 1 } ],
     "components": [
       [ [ "bag_canvas", 1 ] ],
       [ [ "flour", 600 ] ]
-    ]
+    ],
+    "flags": [ "BLIND_EASY" ]
   },
   {
-    "type" : "recipe",
     "result": "weed",
-    "id_suffix" : "sacked",
-    "container": "bag_canvas",
+    "type": "recipe",
+    "id_suffix": "sacked",
     "category": "CC_CHEM",
     "subcategory": "CSC_CHEM_OTHER",
     "skill_used": "fabrication",
     "difficulty": 0,
     "time": 1000,
-    "result_mult": 1500,
     "autolearn": true,
-    "flags": [ "BLIND_EASY" ],
-    "qualities":[
-        {"id":"CONTAIN","level":1}
-    ],
+    "container": "bag_canvas",
+    "result_mult": 1500,
+    "qualities": [ { "id": "CONTAIN", "level": 1 } ],
     "components": [
       [ [ "bag_canvas", 1 ] ],
       [ [ "weed", 7500 ] ]
-    ]
+    ],
+    "flags": [ "BLIND_EASY" ]
   }
 ]
