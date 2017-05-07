@@ -13,16 +13,29 @@
     }
   },
   {
-    "id": "seed_bamboo",
+    "id": "seed_nubamboo",
     "copy-from": "seed",
     "type": "COMESTIBLE",
-    "name": "bamboo seed",
-    "name_plural": "bamboo seeds",
-    "description": "Some bamboo seeds.",
+    "name": "nu-bamboo seed",
+    "name_plural": "nu-bamboo seeds",
+    "description": "Some seeds of nu-bamboo, a plant genetically to provide cheap wood for industrial carpeting.",
     "seed_data": {
       "plant_name": "bamboo",
       "fruit": "stick",
       "byproducts": [ "splinter" ],
+      "grow": 120
+    }
+  },
+  {
+    "id": "coffee_bean",
+    "copy-from": "coffee_bean",
+    "type": "COMESTIBLE",
+    "name" : "coffee bean",
+    "name_plural" : "coffee beans",
+    "seed_data": {
+      "plant_name": "coffee plant",
+      "fruit": "coffee_bean",
+      "byproducts": [ "withered" ],
       "grow": 120
     }
   }
