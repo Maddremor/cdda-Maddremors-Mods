@@ -37,14 +37,6 @@
         "SHEATH_SWORD"
       ]
     }
-  },{
-    "type": "TOOL_ARMOR",
-    "copy-from" : "surv_suit",
-    "id": "goggles_nv_clairvoyance",
-    "name": "pair of radiogenic goggles",
-    "name_plural": "pairs of radiogenic goggles",
-    "extend": { "flags": [ "SKINTIGHT" ]}
-  
   }
 ]
 
