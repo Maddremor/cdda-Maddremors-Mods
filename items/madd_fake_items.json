@@ -5,7 +5,7 @@
     "type": "TOOL",
     "name": "integrated toolset",
     "use_action": [
-      "HAMMER", 
+      "HAMMER",
       "CROWBAR",
       "HACKSAW",
       "BOLTCUTTERS",
@@ -20,36 +20,9 @@
         "tool_quality": 1,
         "cost_scaling": 0.1,
         "move_cost": 800
-      } 
+      }
     ],
-    "extend": {
-      "qualities": [
-        [ "CUT", 2 ],
-        [ "CUT_FINE", 3 ],
-        [ "SMOOTH", 2 ],
-        [ "WELD", 2 ],
-        [ "HAMMER", 3 ],
-        [ "HAMMER_FINE", 1 ],
-        [ "SAW_W", 2 ],
-        [ "SAW_M", 2 ],
-        [ "SAW_M_FINE", 1 ],
-        [ "COOK", 2 ],
-        [ "AXE", 3 ],
-        [ "DIG", 3 ],
-        [ "WRENCH", 2 ],
-        [ "WRENCH_FINE", 1 ],
-        [ "SCREW", 1 ],
-        [ "SCREW_FINE", 1 ],
-        [ "BUTCHER", 50 ],
-        [ "DRILL", 3 ],
-        [ "PRY", 4 ],
-        [ "LIFT", 1 ],
-        [ "JACK", 15 ],
-        [ "CHISEL", 3 ],
-        [ "SEW", 3 ],
-        [ "KNIT", 1 ]
-      ]
-    }
+    "extend": { "qualities": [ [ "CUT", 2 ], [ "CUT_FINE", 3 ], [ "SMOOTH", 2 ], [ "WELD", 2 ], [ "HAMMER", 3 ], [ "HAMMER_FINE", 1 ], [ "SAW_W", 2 ], [ "SAW_M", 2 ], [ "SAW_M_FINE", 1 ], [ "COOK", 2 ], [ "AXE", 3 ], [ "DIG", 3 ], [ "WRENCH", 2 ], [ "WRENCH_FINE", 1 ], [ "SCREW", 1 ], [ "SCREW_FINE", 1 ], [ "BUTCHER", 50 ], [ "DRILL", 3 ], [ "PRY", 4 ], [ "LIFT", 1 ], [ "JACK", 15 ], [ "CHISEL", 3 ], [ "SEW", 3 ], [ "KNIT", 1 ] ] }
   },
   {
     "id": "fake_scanner",
