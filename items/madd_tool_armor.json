@@ -1,43 +1,34 @@
 [
   {
-    "type": "ARMOR",
-    "copy-from" : "surv_suit",
-    "override": true,
     "id": "surv_suit",
+    "copy-from": "surv_suit",
+    "type": "ARMOR",
     "category": "armor",
     "name": "Survivor's Scout Suit",
     "use_action": {
       "type": "holster",
       "holster_prompt": "Sheath knife",
       "holster_msg": "You sheath your %s",
-      "multi": 2,
       "max_volume": 15,
       "draw_cost": 80,
-      "flags": [
-        "SHEATH_KNIFE",
-        "SHEATH_SWORD"
-      ]
+      "multi": 2,
+      "flags": [ "SHEATH_KNIFE", "SHEATH_SWORD" ]
     }
-  },{
-    "type": "ARMOR",
-    "copy-from" : "surv_armor_suit",
-    "override": true,
+  },
+  {
     "id": "surv_armor_suit",
+    "copy-from": "surv_armor_suit",
+    "type": "ARMOR",
     "category": "armor",
     "name": "Survivor's Armored Scout Suit",
     "use_action": {
       "type": "holster",
       "holster_prompt": "Sheath knife",
       "holster_msg": "You sheath your %s",
-      "multi": 2,
       "max_volume": 15,
       "draw_cost": 80,
-      "flags": [
-        "SHEATH_KNIFE",
-        "SHEATH_SWORD"
-      ]
+      "multi": 2,
+      "flags": [ "SHEATH_KNIFE", "SHEATH_SWORD" ]
     }
   }
 ]
-
-
