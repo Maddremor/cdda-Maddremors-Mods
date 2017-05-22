@@ -1,11 +1,11 @@
 [
   {
     "type": "scenario",
-    "ident": "madd_freeform",
     "name": "Freeform",
-    "points": 1,
     "description": "Test scenario, please ignore.",
+    "ident": "madd_freeform",
+    "points": 1,
     "start_name": "Freeform",
-    "allowed_locs": [ "forest" ]
+    "allowed_locs": [ "forest", "shelter", "house", "s_grocery", "s_gun", "s_garage", "pawn", "bank", "mil_surplus", "furniture", "s_library", "s_bookstore", "boarded_house", "lab_stairs", "lab_finale", "ice_lab_stairs", "ice_lab_finale", "cabin", "field", "lmoe", "hospital", "prison", "mall_a_12", "mall_a_30", "fire_station", "police", "school", "mine_finale", "Swamp Shack", "campground", "survivalist farm", "cabin_woods" ]
   }
 ]
