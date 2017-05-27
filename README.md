@@ -10,5 +10,8 @@ A random grab bag of whatever ideas I get.
 # Sarcophagi-Access
 An alternate method to get access to the Hazardous Waste Sarcophagus.
 
+# Sunken-Bridges
+Makes bridges count as crossable for both cars and boats. Has the side effect of allowing fish to swim over bridges.
+
 # The-Cool-Mod
 Adds a dragable cooler. Cooling not guaranteed.
