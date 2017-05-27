@@ -1,4 +1,4 @@
-# MaddreMod
+# Maddremor's Mods
 A collection of my minor mods. Not that serious stuff.
 
 # Egg-Eggplant-Plant-Combo-Seed-Mod
