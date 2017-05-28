@@ -18,7 +18,7 @@
     "healthy": 1,
     "fun": -15,
     "spoils_in": 240,
-    "flags": [ "EATEN_HOT" ]
+    "flags": [ "EATEN_HOT" ],
     "vitamins": [
       [ "calcium", 4 ],
       [ "iron", 5 ],
