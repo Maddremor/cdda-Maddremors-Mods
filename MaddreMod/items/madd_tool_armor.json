@@ -30,5 +30,33 @@
       "multi": 2,
       "flags": [ "SHEATH_KNIFE", "SHEATH_SWORD" ]
     }
+  },
+  {
+    "id": "madd_survivor_belt",
+    "type": "ARMOR",
+    "name": "handyman utility belt",
+    "description": "A custom-built leather utility belt with enough tools for the crafty survivor to remake the world.",
+    "weight": 3390,
+    "volume": 16,
+    "price": 50000,
+    "material": [ "leather", "iron" ],
+    "symbol": "[",
+    "color": "brown",
+    "covers": [ "TORSO" ],
+    "coverage": 15,
+    "storage": 2,
+    "material_thickness": 2,
+    "qualities": [ [ "CUT", 1 ], [ "CUT_FINE", 3 ], [ "GLARE", 2 ], [ "HAMMER", 3 ], [ "HAMMER_FINE", 1 ], [ "SAW_W", 2 ], [ "SAW_M", 2 ], [ "SAW_M_FINE", 1 ], [ "COOK", 1 ], [ "AXE", 3 ], [ "DIG", 3 ], [ "WRENCH", 2 ], [ "WRENCH_FINE", 1 ], [ "SCREW", 1 ], [ "SCREW_FINE", 1 ], [ "DRILL", 1 ], [ "PRY", 4 ], [ "CHISEL", 3 ] ],
+    "use_action": [
+      {
+        "type": "holster",
+        "min_volume": 0,
+        "max_volume": 12,
+        "draw_cost": 3,
+        "multi": 6,
+        "flags": [ "SHEATH_KNIFE", "SHEATH_SWORD", "MAG_COMPACT", "MAG_BULKY", "BELT_CLIP" ]
+      }
+    ],
+    "flags": [ "VARSIZE", "WATER_FRIENDLY", "STURDY", "WAIST", "OVERSIZE" ]
   }
 ]
