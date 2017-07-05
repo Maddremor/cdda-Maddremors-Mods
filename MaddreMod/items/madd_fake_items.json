@@ -4,7 +4,7 @@
     "copy-from": "fake_item",
     "type": "TOOL",
     "name": "implanted rubble clearer",
-    "qualities": [ [ "SAW_W", 2 ], [ "SAW_M", 2 ], [ "AXE", 3 ], [ "DIG", 3 ], [ "PRY", 4 ], [ "LIFT", 1 ], [ "JACK", 15 ]] }
+    "qualities": [ [ "SAW_W", 2 ], [ "SAW_M", 2 ], [ "AXE", 3 ], [ "DIG", 3 ], [ "PRY", 4 ], [ "LIFT", 1 ], [ "JACK", 15 ] ],
     "flags": [ "TRADER_AVOID" ]
   }
 ]
