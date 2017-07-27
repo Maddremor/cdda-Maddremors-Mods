@@ -1,0 +1,279 @@
+[
+  {
+    "id": "ax",
+    "copy-from": "ax",
+    "type": "TOOL",
+    "name": "wood axe",
+    "extend": { "flags": [ "BELT_CLIP" ] }
+  },
+  {
+    "id": "battleaxe",
+    "copy-from": "battleaxe",
+    "type": "TOOL",
+    "name": "battle axe",
+    "extend": { "flags": [ "BELT_CLIP" ] }
+  },
+  {
+    "id": "boltcutters",
+    "copy-from": "boltcutters",
+    "type": "TOOL",
+    "name": "pair of bolt cutters",
+    "name_plural": "pairs of bolt cutters",
+    "extend": { "flags": [ "BELT_CLIP" ] }
+  },
+  {
+    "id": "chipper",
+    "copy-from": "chipper",
+    "type": "TOOL",
+    "name": "paint chipper",
+    "extend": { "flags": [ "BELT_CLIP" ] }
+  },
+  {
+    "id": "chisel",
+    "copy-from": "chisel",
+    "type": "TOOL",
+    "name": "metalworking chisel",
+    "extend": { "flags": [ "BELT_CLIP" ] }
+  },
+  {
+    "id": "copper_ax",
+    "copy-from": "copper_ax",
+    "type": "TOOL",
+    "name": "copper axe",
+    "extend": { "flags": [ "BELT_CLIP" ] }
+  },
+  {
+    "id": "cordless_drill",
+    "copy-from": "cordless_drill",
+    "type": "TOOL",
+    "name": "cordless drill",
+    "extend": { "flags": [ "BELT_CLIP" ] }
+  },
+  {
+    "id": "crucible",
+    "copy-from": "crucible",
+    "type": "TOOL",
+    "name": "crucible",
+    "extend": { "flags": [ "BELT_CLIP" ] }
+  },
+  {
+    "id": "crucible_clay",
+    "copy-from": "crucible_clay",
+    "type": "TOOL",
+    "name": "clay crucible",
+    "extend": { "flags": [ "BELT_CLIP" ] }
+  },
+  {
+    "id": "digging_stick",
+    "copy-from": "digging_stick",
+    "type": "TOOL",
+    "name": "digging stick",
+    "extend": { "flags": [ "BELT_CLIP" ] }
+  },
+  {
+    "id": "distaff_spindle",
+    "copy-from": "distaff_spindle",
+    "type": "TOOL",
+    "name": "distaff and spindle",
+    "name_plural": "distaves and spindles",
+    "extend": { "flags": [ "BELT_CLIP" ] }
+  },
+  {
+    "id": "e_tool",
+    "copy-from": "e_tool",
+    "type": "TOOL",
+    "name": "entrenching tool",
+    "extend": { "flags": [ "BELT_CLIP" ] }
+  },
+  {
+    "id": "fire_ax",
+    "copy-from": "fire_ax",
+    "type": "TOOL",
+    "name": "fire axe",
+    "extend": { "flags": [ "BELT_CLIP" ] }
+  },
+  {
+    "id": "g_shovel",
+    "copy-from": "g_shovel",
+    "type": "TOOL",
+    "name": "trowel",
+    "extend": { "flags": [ "BELT_CLIP" ] }
+  },
+  {
+    "id": "grapnel",
+    "copy-from": "grapnel",
+    "type": "TOOL",
+    "name": "grappling hook",
+    "extend": { "flags": [ "BELT_CLIP" ] }
+  },
+  {
+    "id": "hacksaw",
+    "copy-from": "hacksaw",
+    "type": "TOOL",
+    "name": "hacksaw",
+    "extend": { "flags": [ "BELT_CLIP" ] }
+  },
+  {
+    "id": "hand_drill",
+    "copy-from": "hand_drill",
+    "type": "TOOL",
+    "name": "hand drill",
+    "extend": { "flags": [ "BELT_CLIP" ] }
+  },
+  {
+    "id": "hose",
+    "copy-from": "hose",
+    "type": "TOOL",
+    "name": "rubber hose",
+    "extend": { "flags": [ "BELT_CLIP" ] }
+  },
+  {
+    "id": "lobotomizer",
+    "copy-from": "lobotomizer",
+    "type": "TOOL",
+    "name": "lobotomizer",
+    "extend": { "flags": [ "BELT_CLIP" ] }
+  },
+  {
+    "id": "makeshift_hammer",
+    "copy-from": "makeshift_hammer",
+    "type": "TOOL",
+    "name": "makeshift hammer",
+    "extend": { "flags": [ "BELT_CLIP" ] }
+  },
+  {
+    "id": "mold_plastic",
+    "copy-from": "mold_plastic",
+    "type": "TOOL",
+    "name": "plastic mold",
+    "extend": { "flags": [ "BELT_CLIP" ] }
+  },
+  {
+    "id": "xxx",
+    "copy-from": "xxx",
+    "type": "TOOL",
+    "name": "xxx",
+    "extend": { "flags": [ "BELT_CLIP" ] }
+  },
+  {
+    "id": "paint_brush",
+    "copy-from": "paint_brush",
+    "type": "TOOL",
+    "name": "paint brush",
+    "extend": { "flags": [ "BELT_CLIP" ] }
+  },
+  {
+    "id": "pan",
+    "copy-from": "pan",
+    "type": "TOOL",
+    "name": "frying pan",
+    "extend": { "flags": [ "BELT_CLIP" ] }
+  },
+  {
+    "id": "pickaxe",
+    "copy-from": "pickaxe",
+    "type": "TOOL",
+    "name": "pickaxe",
+    "extend": { "flags": [ "BELT_CLIP" ] }
+  },
+  {
+    "id": "polisher",
+    "copy-from": "polisher",
+    "type": "TOOL",
+    "name": "electric polisher",
+    "extend": { "flags": [ "BELT_CLIP" ] }
+  },
+  {
+    "id": "press",
+    "copy-from": "press",
+    "type": "TOOL",
+    "name": "hand press & die set",
+    "extend": { "flags": [ "BELT_CLIP" ] }
+  },
+  {
+    "id": "saw",
+    "copy-from": "saw",
+    "type": "TOOL",
+    "name": "wood saw",
+    "extend": { "flags": [ "BELT_CLIP" ] }
+  },
+  {
+    "id": "screwdriver",
+    "copy-from": "screwdriver",
+    "type": "TOOL",
+    "name": "screwdriver",
+    "extend": { "flags": [ "BELT_CLIP" ] }
+  },
+  {
+    "id": "screwdriver_set",
+    "copy-from": "screwdriver_set",
+    "type": "TOOL",
+    "name": "screwdriver set",
+    "extend": { "flags": [ "BELT_CLIP" ] }
+  },
+  {
+    "id": "shovel",
+    "copy-from": "shovel",
+    "type": "TOOL",
+    "name": "shovel",
+    "extend": { "flags": [ "BELT_CLIP" ] }
+  },
+  {
+    "id": "soldering_iron",
+    "copy-from": "soldering_iron",
+    "type": "TOOL",
+    "name": "soldering iron",
+    "extend": { "flags": [ "BELT_CLIP" ] }
+  },
+  {
+    "id": "survivor_scope",
+    "copy-from": "survivor_scope",
+    "type": "TOOL",
+    "name": "survivor telescope",
+    "name_plural": "survivor telescopes",
+    "extend": { "flags": [ "BELT_CLIP" ] }
+  },
+  {
+    "id": "swage",
+    "copy-from": "swage",
+    "type": "TOOL",
+    "name": "swage and die set",
+    "extend": { "flags": [ "BELT_CLIP" ] }
+  },
+  {
+    "id": "tongs",
+    "copy-from": "tongs",
+    "type": "TOOL",
+    "name": "pair of metal tongs",
+    "name_plural": "pairs of metal tongs",
+    "extend": { "flags": [ "BELT_CLIP" ] }
+  },
+  {
+    "id": "washboard",
+    "copy-from": "washboard",
+    "type": "TOOL",
+    "name": "washboard",
+    "extend": { "flags": [ "BELT_CLIP" ] }
+  },
+  {
+    "id": "welder",
+    "copy-from": "welder",
+    "type": "TOOL",
+    "name": "welder",
+    "extend": { "flags": [ "BELT_CLIP" ] }
+  },
+  {
+    "id": "welder_crude",
+    "copy-from": "welder_crude",
+    "type": "TOOL",
+    "name": "makeshift welder",
+    "extend": { "flags": [ "BELT_CLIP" ] }
+  },
+  {
+    "id": "wrench",
+    "copy-from": "wrench",
+    "type": "TOOL",
+    "name": "wrench",
+    "extend": { "flags": [ "BELT_CLIP" ] }
+  }
+]

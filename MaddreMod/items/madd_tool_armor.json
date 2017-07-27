@@ -58,5 +58,33 @@
       }
     ],
     "flags": [ "VARSIZE", "WATER_FRIENDLY", "STURDY", "WAIST", "OVERSIZE" ]
+  },
+  {
+    "id": "survivor_belt_clips",
+    "type": "ARMOR",
+    "name": "survivor belt",
+    "description": "A custom-built leather utility belt covered with straps and pouches with a sheath to carry a smaller blade.  Durable and carefully crafted to be comfortable to wear.",
+    "weight": 1249,
+    "volume": 9,
+    "price": 15000,
+    "material": [ "leather" ],
+    "symbol": "[",
+    "color": "brown",
+    "covers": [ "TORSO" ],
+    "coverage": 15,
+    "encumbrance": 3,
+    "storage": 8,
+    "material_thickness": 2,
+    "use_action": {
+      "type": "holster",
+      "holster_prompt": "Attach what to belt loop?",
+      "holster_msg": "You clip your %s to your %s",
+      "min_volume": 0,
+      "max_volume": 14,
+      "draw_cost": 200,
+      "multi": 8,
+      "flags": [ "BELT_CLIP" ]
+    },
+    "flags": [ "VARSIZE", "WATER_FRIENDLY", "STURDY", "WAIST", "OVERSIZE" ]
   }
 ]
