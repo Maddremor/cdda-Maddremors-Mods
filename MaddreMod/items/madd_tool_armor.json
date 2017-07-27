@@ -62,7 +62,7 @@
   {
     "id": "survivor_belt_clips",
     "type": "ARMOR",
-    "name": "survivor belt",
+    "name": "survivor toolbelt",
     "description": "A custom-built leather utility belt covered with straps and pouches with a sheath to carry a smaller blade.  Durable and carefully crafted to be comfortable to wear.",
     "weight": 1249,
     "volume": 9,

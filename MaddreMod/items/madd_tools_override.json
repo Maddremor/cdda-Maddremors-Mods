@@ -149,13 +149,6 @@
     "extend": { "flags": [ "BELT_CLIP" ] }
   },
   {
-    "id": "xxx",
-    "copy-from": "xxx",
-    "type": "TOOL",
-    "name": "xxx",
-    "extend": { "flags": [ "BELT_CLIP" ] }
-  },
-  {
     "id": "paint_brush",
     "copy-from": "paint_brush",
     "type": "TOOL",
