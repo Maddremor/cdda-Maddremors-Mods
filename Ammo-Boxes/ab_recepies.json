@@ -1,3 +1,41 @@
 [
-  
+  {
+    "result": "ammo_box_nail",
+    "type": "recipe",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_OTHER",
+    "skill_used": "gun",
+    "difficulty": 0,
+    "time": 400,
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "box_small", 1 ] ] ],
+    "flags": [ "BLIND_EASY" ]
+  },
+  {
+    "result": "ammo_box_9mm",
+    "type": "recipe",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_OTHER",
+    "skill_used": "gun",
+    "difficulty": 0,
+    "time": 400,
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "box_small", 1 ] ] ],
+    "flags": [ "BLIND_EASY" ]
+  },
+  {
+    "result": "ammo_box_shot",
+    "type": "recipe",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_OTHER",
+    "skill_used": "gun",
+    "difficulty": 0,
+    "time": 400,
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "box_small", 1 ] ] ],
+    "flags": [ "BLIND_EASY" ]
+  }
 ]

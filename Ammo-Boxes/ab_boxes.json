@@ -1,3 +1,49 @@
 [
-  
+  {
+    "id": "ammo_box_nail",
+    "type": "CONTAINER",
+    "category": "other",
+    "name": "ammo box (nails)",
+    "name_plural": "ammo boxes (nails)",
+    "description": "A small cardboard box.  No bigger than a foot in dimension.",
+    "weight": 151,
+    "volume": 4,
+    "price": 0,
+    "material": "paper",
+    "symbol": ")",
+    "color": "brown",
+    "use_action": {
+      "type": "bandolier",
+      "capacity": 400,
+      "ammo": [ "nail" ]
+    }
+  },
+  {
+    "id": "ammo_box_9mm",
+    "copy-from": "ammo_box_nail",
+    "type": "CONTAINER",
+    "category": "other",
+    "name": "ammo box (9mm)",
+    "name_plural": "ammo boxes (9mm)",
+    "description": "A small cardboard box to store 9mm rounds.",
+    "use_action": {
+      "type": "bandolier",
+      "capacity": 200,
+      "ammo": [ "9mm", "9x18" ]
+    }
+  },
+  {
+    "id": "ammo_box_shot",
+    "copy-from": "ammo_box_nail",
+    "type": "CONTAINER",
+    "category": "other",
+    "name": "ammo box (shotshell)",
+    "name_plural": "ammo boxes (shotshell)",
+    "description": "A small cardboard box to store shotshell.",
+    "use_action": {
+      "type": "bandolier",
+      "capacity": 80,
+      "ammo": [ "shot" ]
+    }
+  }
 ]

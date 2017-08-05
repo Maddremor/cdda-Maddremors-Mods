@@ -1,0 +1,16 @@
+[
+  {
+    "id": "ab_sack_nail",
+    "copy-from": "bag_canvas",
+    "type": "CONTAINER",
+    "category": "other",
+    "name": "sack of nails",
+    "description": "A large and sturdy canvas sack to be filled with nails for storage.",
+    "rigid": false,
+    "use_action": {
+      "type": "bandolier",
+      "capacity": 6000,
+      "ammo": [ "nail" ]
+    }
+  }
+]
