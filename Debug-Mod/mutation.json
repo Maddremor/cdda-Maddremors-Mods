@@ -1,0 +1,17 @@
+[
+  {
+    "type" : "mutation",
+    "id" : "DEBUG_ITEM_SPAWN",
+    "name" : "Debug Item Spawn",
+    "points" : 0,
+    "visibility" : 0,
+    "ugliness" : 0,
+    "description" : "Test mutation. Should spawn something.",
+    "valid" : false,
+    "spawn_item" : "hammer",
+    "active"     :    true,
+    "cost"       :    0,
+    "hunger"     :    false,
+    "thirst"     :    false
+  }
+]

@@ -1,0 +1,10 @@
+    {
+        "type": "MOD_INFO",
+        "mod-type": "SUPPLEMENTAL",
+        "ident": "debug_mod",
+        "name": "debug_mod",
+        "author": "Maddremor",
+        "description": "debug_mod",
+        "path": "",
+        "dependencies": [ "dda" ]
+    }
