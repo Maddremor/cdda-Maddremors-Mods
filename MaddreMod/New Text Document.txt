@@ -1,0 +1,8 @@
+[
+  {
+    "type" : "start_location",
+    "ident" : "pump_station_1",
+    "name" : "Pump Station",
+    "target" : "pump_station_1"
+  }
+]
