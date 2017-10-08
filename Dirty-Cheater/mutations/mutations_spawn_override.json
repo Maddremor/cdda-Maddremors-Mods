@@ -1,0 +1,50 @@
+[
+  {
+    "id": "WEB_ROPE",
+    "type": "mutation",
+    "category": [ "MUTCAT_SPIDER" ],
+    "name": "Rope Webs",
+    "description": "With spinnerets like THESE, who needs rope?!  Activate to produce rope.",
+    "points": 3,
+    "active": true,
+    "cost": 20,
+    "hunger": true,
+    "thirst": true,
+    "spawn_item" : { "type": "rope_30", "message": "You spin a rope from your silk." },
+    "purifiable": false,
+    "prereqs": [
+      "WEB_WEAVER"
+    ]
+  },
+  {
+    "id": "VINES3",
+    "type": "mutation",
+    "category": [ "MUTCAT_PLANT" ],
+    "name": "Vine Sprouter",
+    "description": "You have full control of your vines, and can grow new ones and detach old ones more or less at will.",
+    "points": 5,
+    "visibility": 10,
+    "ugliness": 6,
+    "active": true,
+    "cost": 10,
+    "hunger": true,
+    "thirst": true,
+    "spawn_item" : { "type": "vine_30", "message": "You detach a vine from your body." },
+    "purifiable": false,
+    "prereqs": [
+      "PLANTSKIN",
+      "BARK"
+    ],
+    "prereqs2": [
+      "VINES2"
+    ],
+    "attacks": [
+      {
+        "attack_text_u": "You lash %s with a vine",
+        "attack_text_npc": "%1$s lashes %2$s with their vines",
+        "hardcoded_effect": true,
+        "chance": 1
+      }
+    ]
+  }
+]

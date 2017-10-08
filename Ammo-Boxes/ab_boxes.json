@@ -20,20 +20,6 @@
     }
   },
   {
-    "id": "ammo_box_powder",
-    "copy-from": "ammo_box_nail",
-    "type": "CONTAINER",
-    "category": "other",
-    "name": "powder box",
-    "name_plural": "powder boxes",
-    "description": "A small cardboard box to store chemical powders.",
-    "use_action": {
-      "type": "bandolier",
-      "capacity": 500,
-      "ammo": [ "components" ]
-    }
-  },
-  {
     "id": "ammo_box_9mm",
     "copy-from": "ammo_box_nail",
     "type": "CONTAINER",

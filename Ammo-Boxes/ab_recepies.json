@@ -26,22 +26,6 @@
     "flags": [ "BLIND_EASY" ]
   },
   {
-    "result": "ammo_box_powder",
-    "type": "recipe",
-    "category": "CC_OTHER",
-    "subcategory": "CSC_OTHER_CONTAINER",
-    "skill_used": "fabrication",
-    "difficulty": 1,
-    "time": 400,
-    "reversible": true,
-    "autolearn": true,
-    "components": [
-      [ [ "box_small", 1 ] ],
-      [ [ "bag_plastic", 1 ] ]
-    ],
-    "flags": [ "BLIND_HARD" ]
-  },
-  {
     "result": "ammo_box_9mm",
     "type": "recipe",
     "category": "CC_AMMO",

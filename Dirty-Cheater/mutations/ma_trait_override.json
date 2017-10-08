@@ -1,0 +1,52 @@
+[
+  {
+    "id": "MARTIAL_ARTS",
+    "type": "mutation",
+    "name": "Martial Arts Training",
+    "description": "You have received some martial arts training at a local dojo.  You start with your choice of Karate, Judo, Aikido, Tai Chi, or Taekwondo.",
+    "points": 2,
+    "starting_trait": false,
+    "valid": false,
+    "initial_ma_styles": [ "style_karate", "style_judo", "style_aikido", "style_tai_chi", "style_taekwondo" ]
+  },
+  {
+    "id": "MARTIAL_ARTS2",
+    "type": "mutation",
+    "name": "Self-Defense Classes",
+    "description": "You have taken some self-defense classes at a nearby gym.  You start with your choice of Capoeira, Krav Maga, Muay Thai, Ninjutsu, or Zui Quan.",
+    "points": 2,
+    "starting_trait": false,
+    "valid": false,
+    "initial_ma_styles": [ "style_krav_maga", "style_muay_thai", "style_ninjutsu", "style_capoeira", "style_zui_quan" ]
+  },
+  {
+    "id": "MARTIAL_ARTS3",
+    "type": "mutation",
+    "name": "Shaolin Adept",
+    "description": "You have studied the arts of the Shaolin monks.  You start with one of the five animal fighting styles: Tiger, Crane, Leopard, Snake, or Dragon.",
+    "points": 2,
+    "starting_trait": false,
+    "valid": false,
+    "initial_ma_styles": [ "style_tiger", "style_crane", "style_leopard", "style_snake", "style_dragon" ]
+  },
+  {
+    "id": "MARTIAL_ARTS4",
+    "type": "mutation",
+    "name": "Venom Mob Protege",
+    "description": "You are a pupil of the Venom Clan.  You start with one of the five deadly venoms: Centipede, Viper, Scorpion, Lizard, or Toad.",
+    "points": 2,
+    "starting_trait": false,
+    "valid": false,
+    "initial_ma_styles": [ "style_centipede", "style_venom_snake", "style_scorpion", "style_lizard", "style_toad" ]
+  },
+  {
+    "id": "MARTIAL_ARTS5",
+    "type": "mutation",
+    "name": "Melee Weapon Training",
+    "description": "You have practiced fighting with weapons.  You start with your choice of Eskrima, Fencing, Pentjak Silat or Niten Ichi-Ryu.",
+    "points": 3,
+    "starting_trait": false,
+    "valid": false,
+    "initial_ma_styles": [ "style_eskrima", "style_fencing", "style_silat", "style_niten" ]
+  }
+]

@@ -1,0 +1,10 @@
+    {
+        "type": "MOD_INFO",
+        "mod-type": "SUPPLEMENTAL",
+        "ident": "WorkBench",
+        "name": "Workbench",
+        "author": "Maddremor",
+        "description": "Modular vehicle workbench. Not balanced yet.",
+        "path": "",
+        "dependencies": [ "dda" ]
+    }

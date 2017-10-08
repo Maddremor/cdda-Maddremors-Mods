@@ -1,10 +1,10 @@
     {
         "type": "MOD_INFO",
         "mod-type": "SUPPLEMENTAL",
-        "ident": "debug_mod",
-        "name": "debug_mod",
+        "ident": "madd_cheat",
+        "name": "Cheat Mod",
         "author": "Maddremor",
-        "description": "debug_mod",
+        "description": "What it says on the tin",
         "path": "",
         "dependencies": [ "dda" ]
     }
