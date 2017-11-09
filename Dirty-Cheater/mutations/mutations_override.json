@@ -3890,10 +3890,7 @@
       [ "ARM_L" ],
       [ "ARM_R" ],
       [ "HAND_L" ],
-      [ "HAND_R" ],
-      [ "HEAD" ],
-      [ "FOOT_L" ],
-      [ "FOOT_R" ]
+      [ "HAND_R", "HEAD", "FOOT_L", "FOOT_R"
     ]
   },
   {
@@ -3924,16 +3921,16 @@
       "STR_UP_4"
     ],
     "restricts_gear": [
-      [ "TORSO" ],
-      [ "LEG_L" ],
-      [ "LEG_R" ],
-      [ "ARM_L" ],
-      [ "ARM_R" ],
-      [ "HAND_L" ],
-      [ "HAND_R" ],
-      [ "HEAD" ],
-      [ "FOOT_L" ],
-      [ "FOOT_R" ]
+      "TORSO", 
+      "LEG_L", 
+      "LEG_R", 
+      "ARM_L", 
+      "ARM_R", 
+      "HAND_L", 
+      "HAND_R", 
+      "HEAD", 
+      "FOOT_L", 
+      "FOOT_R"
     ]
   },
   {
