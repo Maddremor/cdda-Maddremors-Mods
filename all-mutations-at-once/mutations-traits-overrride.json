@@ -1,0 +1,472 @@
+[
+  {
+    "type": "mutation",
+    "id": "OUTDOORSMAN",
+    "name": "Outdoorsman",
+    "points": 1,
+    "description": "You are accustomed to being exposed to the elements.  This decreases morale penalties for being wet.",
+    "starting_trait": true,
+    "purifiable": false,
+    "valid": false,
+    "wet_protection": [
+      { "part": "HEAD", "ignored": 6 },
+      { "part": "LEG_L", "ignored": 8 },
+      { "part": "LEG_R", "ignored": 8 },
+      { "part": "FOOT_L", "ignored": 2 },
+      { "part": "FOOT_R", "ignored": 2 },
+      { "part": "ARM_L", "ignored": 8 },
+      { "part": "ARM_R", "ignored": 8 },
+      { "part": "HAND_L", "ignored": 12 },
+      { "part": "HAND_R", "ignored": 12 },
+      { "part": "TORSO", "ignored": 10 }
+    ]
+  },
+  {
+    "type": "mutation",
+    "id": "PARKOUR",
+    "name": "Parkour Expert",
+    "points": 2,
+    "description": "You're skilled at clearing obstacles; terrain like railings or counters are as easy for you to move on as solid ground.",
+    "starting_trait": true,
+    "purifiable": false,
+    "valid": false,
+    "cancels": [ "BADKNEES" ]
+  },
+  {
+    "type": "mutation",
+    "id": "OPTIMISTIC",
+    "name": "Optimist",
+    "points": 2,
+    "purifiable": false,
+    "description": "Nothing gets you down!  You savor the joys of life, ignore its hardships, and are generally happier than most people.",
+    "starting_trait": true,
+    "valid": false,
+    "cancels": [ "BADTEMPER" ]
+  },
+  {
+    "type": "mutation",
+    "id": "EASYSLEEPER",
+    "name": "Accomplished Sleeper",
+    "purifiable": false,
+    "points": 1,
+    "description": "You have always been able to fall asleep easily, even when sleeping in less than ideal circumstances.",
+    "starting_trait": true,
+    "valid": false,
+    "cancels": [ "INSOMNIA" ]
+  },
+  {
+    "type": "mutation",
+    "id": "FASTREADER",
+    "name": "Fast Reader",
+    "purifiable": false,
+    "points": 1,
+    "description": "You're a quick reader, and can get through books a lot faster than most.",
+    "starting_trait": true,
+    "valid": false,
+    "cancels": [ "ILLITERATE", "SLOWREADER" ]
+  },
+  {
+    "type": "mutation",
+    "id": "PACKMULE",
+    "name": "Packmule",
+    "purifiable": false,
+    "points": 2,
+    "description": "You can manage to find space for anything!  You can carry 40% more volume.",
+    "starting_trait": true,
+    "valid": false,
+    "cancels": [ "DISORGANIZED" ]
+  },
+  {
+    "type": "mutation",
+    "id": "FASTLEARNER",
+    "name": "Fast Learner",
+    "points": 3,
+    "purifiable": false,
+    "description": "You have a flexible mind, allowing you to learn skills much faster than others.  Note that this only applies to real-world experience, not to skill gain from other sources like books.",
+    "starting_trait": true,
+    "valid": false,
+    "cancels": [ "SLOWLEARNER" ]
+  },
+  {
+    "type": "mutation",
+    "id": "GOODMEMORY",
+    "name": "Good Memory",
+    "purifiable": false,
+    "points": 3,
+    "description": "You have a an exceptional memory, and find it easy to remember things.  Your skills will erode slightly slower than usual.",
+    "starting_trait": true,
+    "valid": false,
+    "cancels": [ "FORGETFUL" ]
+  },
+  {
+    "type": "mutation",
+    "id": "DRUNKEN",
+    "name": "Drunken Master",
+    "points": 1,
+    "description": "The ancient arts of drunken brawling come naturally to you!  While under the influence of alcohol, your melee skill will rise considerably, especially unarmed combat.",
+    "starting_trait": true,
+    "purifiable": false,
+    "valid": false,
+    "cancels": [ "LIGHTWEIGHT" ]
+  },
+  {
+    "type": "mutation",
+    "id": "SPIRITUAL",
+    "name": "Spiritual",
+    "points": 1,
+    "purifiable": false,
+    "description": "You've always felt that there is more to the world than we can see.  Whether driven by religious beliefs or philosophical interest, you find great inspiration in studying holy texts and experiencing mystical things.",
+    "starting_trait": true,
+    "valid": false
+  },
+  {
+    "type": "mutation",
+    "id": "GOURMAND",
+    "name": "Gourmand",
+    "points": 2,
+    "description": "You eat faster, and can eat and drink more, than anyone else!  You also enjoy food more; delicious food is better for your morale, and you don't mind unsavory meals as much.  Activate to skip prompt for overeating.",
+    "purifiable": false,
+    "starting_trait": true,
+    "valid": false,
+    "active": true
+  },
+  {
+    "type": "mutation",
+    "id": "NONADDICTIVE",
+    "name": "Addiction Resistant",
+    "points": 1,
+    "purifiable": false,
+    "description": "Whether due to a lifetime of exposure or through simple willpower, it's harder for you to become addicted to substances, and easier to rid yourself of these addictions.",
+    "starting_trait": true,
+    "valid": false,
+    "cancels": [ "ADDICTIVE" ]
+  },
+  {
+    "type": "mutation",
+    "id": "STYLISH",
+    "name": "Stylish",
+    "points": 2,
+    "purifiable": false,
+    "description": "Practicality is far less important than style.  Your morale is improved by wearing fashionable and attractive clothing.",
+    "starting_trait": true,
+    "valid": false
+  },
+  {
+    "type": "mutation",
+    "id": "EAGLEEYED",
+    "//": "Can't change the ID as that breaks save-compatibility.",
+    "name": "Scout",
+    "points": 1,
+    "description": "You're an excellent navigator and your ability to spot distant landmarks is unmatched.  Your sight radius on the overmap extends beyond the normal range.",
+    "valid": false,
+    "purifiable": false,
+    "starting_trait": true,
+    "cancels": [ "MYOPIC" ]
+  },
+  {
+    "type": "mutation",
+    "id": "CANNIBAL",
+    "name": "Cannibal",
+    "points": 1,
+    "description": "For your whole life you've been forbidden from indulging in your peculiar tastes.  Now the world's ended, and you'll be damned if anyone is going to tell you that you can't eat people.",
+    "starting_trait": true,
+    "valid": false,
+    "purifiable": false,
+    "cancels": [ "VEGETARIAN" ],
+    "flags": [ "CANNIBAL" ]
+  },
+  {
+    "type": "mutation",
+    "id": "PSYCHOPATH",
+    "name": "Psychopath",
+    "points": 2,
+    "description": "You don't experience guilt like others do.  Even when you know your actions are wrong, you just don't care.",
+    "starting_trait": true,
+    "valid": false,
+    "purifiable": false,
+    "cancels": [ "PACIFIST" ],
+    "flags": [ "CANNIBAL" ]
+  },
+  {
+    "type": "mutation",
+    "id": "LIAR",
+    "name": "Skilled Liar",
+    "points": 1,
+    "description": "You have no qualms about bending the truth, and have practically no tells.  Telling lies and otherwise bluffing will be much easier for you.",
+    "starting_trait": true,
+    "purifiable": false,
+    "cancels": [ "TRUTHTELLER" ]
+  },
+  {
+    "type": "mutation",
+    "id": "ASTHMA",
+    "name": "Asthmatic",
+    "points": -4,
+    "description": "You will occasionally need to use an inhaler, or else suffer severe physical limitations.  However, you are guaranteed to start with an inhaler.",
+    "starting_trait": true,
+    "valid": false
+  },
+  {
+    "type": "mutation",
+    "id": "DISORGANIZED",
+    "name": "Disorganized",
+    "points": -3,
+    "description": "You are terrible at organizing and storing your possessions.  You can carry 40% less volume.",
+    "starting_trait": true,
+    "valid": false,
+    "cancels": [ "PACKMULE" ]
+  },
+  {
+    "type": "mutation",
+    "id": "ILLITERATE",
+    "name": "Illiterate",
+    "points": -6,
+    "description": "You never learned to read!  Books and computers are off-limits to you.",
+    "starting_trait": true,
+    "valid": false,
+    "cancels": [ "FASTREADER", "SLOWREADER" ]
+  },
+  {
+    "type": "mutation",
+    "id": "SLOWLEARNER",
+    "name": "Slow Learner",
+    "points": -3,
+    "description": "You are slow to grasp new ideas and thus learn things more slowly than others.  Note that this only applies to real-world experience, not to skill gain from other sources like books.",
+    "starting_trait": true,
+    "valid": false,
+    "cancels": [ "FASTLEARNER" ]
+  },
+  {
+    "type": "mutation",
+    "id": "VEGETARIAN",
+    "name": "Meat Intolerance",
+    "points": -2,
+    "description": "You have problems with eating meat.  It's possible for you to eat it, but you will suffer morale penalties due to nausea.",
+    "starting_trait": true,
+    "//": "Intolerances are presumed a psychological issue unless stated otherwise, and cancelled by digestive mutations, which force the issue.",
+    "valid": false,
+    "cancels": [ "CANNIBAL", "MEATARIAN", "ANTIFRUIT" ]
+  },
+  {
+    "type": "mutation",
+    "id": "MEATARIAN",
+    "name": "Hates Vegetables",
+    "points": -2,
+    "description": "You, like many children, hated eating your vegetables; however, you didn't outgrow it.  It's possible for you to eat them, but you will suffer morale penalties due to nausea.",
+    "starting_trait": true,
+    "valid": false,
+    "cancels": [ "VEGETARIAN" ]
+  },
+  {
+    "type": "mutation",
+    "id": "ANTIFRUIT",
+    "name": "Hates Fruit",
+    "points": -3,
+    "description": "You despise eating fruits.  It's possible for you to eat them, but you will suffer morale penalties due to nausea.",
+    "starting_trait": true,
+    "valid": false,
+    "cancels": [ "VEGETARIAN" ]
+  },
+  {
+    "type": "mutation",
+    "id": "LACTOSE",
+    "name": "Lactose Intolerance",
+    "points": -1,
+    "//": "Actual digestive issue, on even footing with the -vore mutations.",
+    "description": "You, like 75 percent of the world, cannot tolerate milk or milk based products.  It's possible for you to eat them, but you will suffer morale penalties due to nausea.",
+    "starting_trait": true
+  },
+  {
+    "type": "mutation",
+    "id": "ANTIWHEAT",
+    "name": "Wheat Allergy",
+    "points": -2,
+    "//": "Actual digestive issue, on even footing with the -vore mutations.",
+    "description": "You have a rare allergy that prevents you from eating wheat.  It's possible for you to eat them, but you will suffer morale penalties due to nausea.",
+    "starting_trait": true
+  },
+  {
+    "type": "mutation",
+    "id": "ADDICTIVE",
+    "name": "Addictive Personality",
+    "points": -2,
+    "description": "It's easier for you to become addicted to substances, and harder to rid yourself of these addictions.",
+    "starting_trait": true,
+    "valid": false,
+    "category": [ "MUTCAT_MEDICAL" ],
+    "cancels": [ "NONADDICTIVE" ]
+  },
+  {
+    "type": "mutation",
+    "id": "TRIGGERHAPPY",
+    "name": "Trigger Happy",
+    "points": -1,
+    "description": "On rare occasion, you will go full-auto when you intended to fire a single shot.  This has no effect when firing semi-automatic firearms.",
+    "starting_trait": true,
+    "valid": false
+  },
+  {
+    "type": "mutation",
+    "id": "SLOWREADER",
+    "name": "Slow Reader",
+    "points": -1,
+    "description": "You're a slow reader, and it takes you longer to get through books than most.",
+    "starting_trait": true,
+    "valid": false,
+    "cancels": [ "ILLITERATE", "FASTREADER" ]
+  },
+  {
+    "type": "mutation",
+    "id": "SCHIZOPHRENIC",
+    "name": "Schizophrenic",
+    "points": -5,
+    "description": "You will periodically suffer from delusions, ranging from minor effects to full visual hallucinations.  Some of these effects may be controlled through the use of Thorazine.",
+    "starting_trait": true,
+    "valid": false,
+    "category": [ "MUTCAT_MEDICAL" ]
+  },
+  {
+    "type": "mutation",
+    "id": "CLUMSY",
+    "name": "Clumsy",
+    "points": -1,
+    "description": "You make more noise while walking.  You're also more likely to set off traps.",
+    "starting_trait": true,
+    "cancels": [ "LIGHTSTEP" ]
+  },
+  {
+    "type": "mutation",
+    "id": "SAVANT",
+    "name": "Savant",
+    "points": -4,
+    "description": "You tend to specialize in one skill and be poor at all others.  You advance at half speed in all skills except your best one.  Note that combining this with Fast Learner will come out to a slower rate of learning for all skills.",
+    "starting_trait": true,
+    "valid": false
+  },
+  {
+    "type": "mutation",
+    "id": "PACIFIST",
+    "name": "Pacifist",
+    "points": -4,
+    "description": "You don't like thinking about violence.  Your combat skills advance much slower than usual, and you feel more guilt about killing.",
+    "starting_trait": true,
+    "valid": false,
+    "cancels": [ "PSYCHOPATH", "PRED1", "PRED2", "PRED3", "PRED4" ]
+  },
+  {
+    "type": "mutation",
+    "id": "WOOLALLERGY",
+    "name": "Wool Allergy",
+    "points": -1,
+    "description": "You are badly allergic to wool, and can not wear any clothing made of the substance.",
+    "starting_trait": true,
+    "valid": true
+  },
+  {
+    "type": "mutation",
+    "id": "TRUTHTELLER",
+    "name": "Truth Teller",
+    "points": -1,
+    "description": "When you try to tell a lie, you blush, stammer, and get all shifty-eyed.  Telling lies and otherwise bluffing will be much more difficult for you.",
+    "starting_trait": true,
+    "cancels": [ "LIAR" ]
+  },
+  {
+    "type": "mutation",
+    "id": "PROF_POLICE",
+    "name": "Police Officer",
+    "points": 0,
+    "description": "You are a duly sworn law enforcement officer, with jurisdiction throughout the New England region thanks to interstate agreements.  Whether that means anything now is another question.",
+    "valid": false,
+    "starting_trait": true,
+    "purifiable": false,
+    "profession": true
+  },
+  {
+    "type": "mutation",
+    "id": "PROF_SWAT",
+    "name": "SWAT Officer",
+    "points": 0,
+    "description": "You are a duly sworn law enforcer, with jurisdiction throughout the New England region thanks to interstate agreements.  Whether that means anything now is another question.",
+    "valid": false,
+    "starting_trait": true,
+    "purifiable": false,
+    "profession": true
+  },
+  {
+    "type": "mutation",
+    "id": "PROF_CYBERCOP",
+    "name": "Bionic Officer",
+    "points": 0,
+    "description": "You are a cybernetically-resurrected law enforcer, with jurisdiction throughout the New England region thanks to interstate agreements.  Whether you can do for the law what the law did for you is another question.",
+    "valid": false,
+    "starting_trait": true,
+    "purifiable": false,
+    "profession": true
+  },
+  {
+    "type": "mutation",
+    "id": "PROF_CHURL",
+    "name": "Churl",
+    "points": 0,
+    "description": "Thou art a lewede man, a lowly cowherd, though where thi catel been thou hast not ynn certain.",
+    "valid": false,
+    "starting_trait": true,
+    "purifiable": false,
+    "profession": true
+  },
+  {
+    "type": "mutation",
+    "id": "PROF_PD_DET",
+    "name": "Police Detective",
+    "points": 0,
+    "description": "You are a duly sworn law enforcement investigator, with jurisdiction throughout the New England region thanks to interstate agreements.  Whether your shield means anything now is another question.",
+    "valid": false,
+    "starting_trait": true,
+    "purifiable": false,
+    "profession": true
+  },
+  {
+    "type": "mutation",
+    "id": "PROF_FED",
+    "name": "US Marshal",
+    "points": 0,
+    "description": "You are a duly sworn Federal marshal, with nationwide jurisdiction and the authority of the United States of America.",
+    "valid": false,
+    "starting_trait": true,
+    "purifiable": false,
+    "profession": true
+  },
+  {
+    "type": "mutation",
+    "id": "PROF_MED",
+    "name": "MD",
+    "points": 0,
+    "//": "In the US, a medical 'residency' is essentially an extended post-graduate, on-the-job medical training.  The idea here is that hopsital computer systems would recognize the PC as a valid user and grant access.",
+    "description": "You were just through with the administrative formalities for your residency when the cataclysm struck.  \"Your\" hospital was overrun and evacuated, but there's always work for a good doctor.",
+    "valid": false,
+    "starting_trait": true,
+    "purifiable": false,
+    "profession": true
+  },
+  {
+    "type": "mutation",
+    "id": "PROF_SKATER",
+    "name": "Skater",
+    "points": 0,
+    "description": "You spent a lot of time actively maneuvering on skates before the cataclysm, and are better at staying on your feet when checked or blocked.",
+    "valid": false,
+    "starting_trait": true,
+    "purifiable": false,
+    "profession": true
+  },
+  {
+    "type": "mutation",
+    "id": "SQUEAMISH",
+    "name": "Squeamish",
+    "points": -1,
+    "starting_trait": true,
+    "description": "You can't even think about putting filthy clothes on yourself, especially from zombies' corpses."
+  }
+]
+
