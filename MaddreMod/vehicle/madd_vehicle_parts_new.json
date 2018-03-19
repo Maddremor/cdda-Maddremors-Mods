@@ -1,103 +1,19 @@
 [
   {
-    "id": "racked_tank_1",
     "type": "vehicle_part",
-    "name": "first stacked 60L tank",
-    "item": "metal_tank",
+    "id": "madd_internal_tank_small",
+    "name": "internal tank (100L)",
     "symbol": "O",
+    "color": "light_gray",
+    "broken_symbol": "Q",
     "broken_color": "red",
+    "durability": 160,
+    "size": 100000,
+    "item": "30gal_drum",
     "difficulty": 1,
-    "durability": 150,
-    "size": 60000,
+    "location": "center",
     "damage_modifier": 80,
-    "flags": [ "NEEDS_BATTERY_MOUNT", "TOOL_NONE" ],
-    "requirements": { "install": { "time": 1000 } },
-    "breaks_into": [
-      { "item": "steel_lump", "count": [ 2, 2 ] },
-      { "item": "steel_chunk", "count": [ 1, 2 ] },
-      { "item": "scrap", "count": [ 1, 5 ] }
-    ]
-  },
-  {
-    "type": "vehicle_part",
-    "copy-from" : "racked_tank_1",
-    "id": "racked_tank_2",
-    "name" : "second stacked 60L tank"
-  },
-  {
-    "type": "vehicle_part",
-    "copy-from" : "racked_tank_1",
-    "id": "racked_tank_3",
-    "name" : "third stacked 60L tank"
-  },
-  {
-    "type": "vehicle_part",
-    "copy-from" : "racked_tank_1",
-    "id": "racked_tank_4",
-    "name" : "fourth stacked 60L tank"
-  },
-  {
-    "type": "vehicle_part",
-    "copy-from" : "surv_station_t",
-    "id": "surv_station_t_mk2",
-    "name": "Survivor's Station Unit MkII",
-    "item": "surv_station_mk2",
-    "extend": {
-      "tools":[
-        "anvil",
-        "boltcutters",
-        "can_sealer",
-        "carding_paddles",
-        "chipper",
-        "crucible",
-        "distaff_spindle",
-        "mold_plastic",
-        "mold_metal",
-        "pastaextruder",
-        "polisher",
-        "puller",
-        "still",
-        "swage",
-        "syringe",
-        "tongs",
-        "waffleiron",
-        "large_repairkit",
-        "multi_cooker",
-        "atomic_coffeepot"
-      ]
-    }
-  },
-  {
-    "type" : "vehicle_part",
-    "id" : "tank_rack",
-    "name" : "tank rack",
-    "symbol" : "8",
-    "color" : "brown",
-    "broken_symbol" : "#",
-    "broken_color" : "brown",
-    "damage_modifier" : 80,
-    "durability" : 350,
-    "item" : "frame",
-    "difficulty" : 1,
-    "location" : "center",
-    "flags" : ["OBSTACLE", "FAUCET", "BATTERY_MOUNT"],
-    "breaks_into": "ig_vp_frame"
-  },
-  {
-    "type" : "vehicle_part",
-    "id" : "madd_internal_tank_small",
-    "name" : "internal tank (100L)",
-    "symbol": "O",
-    "color" : "light_gray",
-    "broken_symbol" : "Q",
-    "broken_color" : "red",
-    "durability" : 160,
-    "size" : 100000,
-    "item" : "30gal_drum",
-    "difficulty" : 1,
-    "location" : "center",
-    "damage_modifier": 80,
-    "flags" : ["UNMOUNT_ON_DAMAGE", "OBSTACLE", "COVERED"]
+    "flags": [ "UNMOUNT_ON_DAMAGE", "OBSTACLE", "COVERED" ]
   },
   {
     "id": "madd_internal_tank",
@@ -108,19 +24,20 @@
     "size": 200000
   },
   {
-    "type" : "vehicle_part",
-    "id" : "madd_concrete_mixer",
-    "name" : "concrete mixer",
-    "symbol" : "$",
-    "color" : "dark_gray",
-    "broken_symbol" : "$",
-    "broken_color" : "brown",
-    "damage_modifier" : 80,
-    "durability" : 350,
-    "item" : "con_mix",
+    "type": "vehicle_part",
+    "id": "madd_concrete_mixer",
+    "name": "concrete mixer",
+    "symbol": "$",
+    "color": "dark_gray",
+    "broken_symbol": "$",
+    "broken_color": "brown",
+    "damage_modifier": 80,
+    "durability": 350,
+    "item": "con_mix",
     "tools": [ "con_mix" ],
-    "difficulty" : 1,
-    "location" : "center",
-    "flags" : [ "OBSTACLE", "COVERED", "UNMOUNT_ON_DAMAGE" ]
+    "difficulty": 1,
+    "location": "center",
+    "flags": [ "OBSTACLE", "COVERED", "UNMOUNT_ON_DAMAGE" ]
   }
 ]
+
