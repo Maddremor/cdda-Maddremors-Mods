@@ -20,10 +20,8 @@
         { "item": "scrap", "count": [ 3, 12 ] }
       ]
     },
-    "deconstruct": {
-      "ter_set": "t_rock_floor",
-      "items": [ { "item": "madd_steel_compactor", "count": 1 } ]
-    },
+    "deconstruct": { "ter_set": "t_rock_floor", "items": [ { "item": "madd_steel_compactor", "count": 1 } ] },
     "flags": [ "TRANSPARENT", "REDUCE_SCENT", "PERMEABLE" ]
   }
 ]
+

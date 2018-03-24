@@ -1,14 +1,15 @@
 [
   {
-    "type" : "start_location",
-    "ident" : "pump_station_1",
-    "name" : "Pump Station",
-    "target" : "pump_station_1"
+    "type": "start_location",
+    "ident": "pump_station_1",
+    "name": "Pump Station",
+    "target": "pump_station_1"
   },
   {
-    "type" : "start_location",
-    "ident" : "museum",
-    "name" : "Museum",
-    "target" : "museum"
+    "type": "start_location",
+    "ident": "museum",
+    "name": "Museum",
+    "target": "museum"
   }
 ]
+
