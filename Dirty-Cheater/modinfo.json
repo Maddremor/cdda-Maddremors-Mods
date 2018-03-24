@@ -1,10 +1,13 @@
-    {
-        "type": "MOD_INFO",
-        "mod-type": "SUPPLEMENTAL",
-        "ident": "madd_cheat",
-        "name": "Cheat Mod",
-        "author": "Maddremor",
-        "description": "What it says on the tin",
-        "path": "",
-        "dependencies": [ "dda" ]
-    }
+{
+  "type": "MOD_INFO",
+  "mod-type": "SUPPLEMENTAL",
+  "ident": "madd_cheat",
+  "name": "Cheat Mod",
+  "author": "Maddremor",
+  "description": "What it says on the tin",
+  "path": "",
+  "dependencies": [
+    "dda"
+  ]
+}
+

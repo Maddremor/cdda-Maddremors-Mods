@@ -10,15 +10,8 @@
     "time": 200000,
     "book_learn": [ [ "manual_rifle", 3 ], [ "manual_fabrication", 5 ], [ "textbook_fabrication", 5 ] ],
     "using": [ [ "welding_standard", 5 ], [ "steel_tiny", 2 ] ],
-    "qualities": [
-      { "id": "HAMMER", "level": 2 },
-      { "id": "SAW_M", "level": 1 },
-      { "id": "WRENCH_FINE", "level": 1 }
-    ],
-    "components": [
-      [ [ "pipe", 1 ] ],
-      [ [ "spring", 1 ] ]
-    ]
+    "qualities": [ { "id": "HAMMER", "level": 2 }, { "id": "SAW_M", "level": 1 }, { "id": "WRENCH_FINE", "level": 1 } ],
+    "components": [ [ [ "pipe", 1 ] ], [ [ "spring", 1 ] ] ]
   },
   {
     "result": "gmm_bullpup_conversion",
@@ -38,11 +31,7 @@
       { "id": "WRENCH_FINE", "level": 1 },
       { "id": "GLARE", "level": 2 }
     ],
-    "components": [
-      [ [ "wire", 1 ] ],
-      [ [ "spring", 2 ] ],
-      [ [ "steel_tiny", 3, "LIST" ] ]
-    ]
+    "components": [ [ [ "wire", 1 ] ], [ [ "spring", 2 ] ], [ [ "steel_tiny", 3, "LIST" ] ] ]
   },
   {
     "result": "gmm_folding_pistol_stock",
@@ -61,11 +50,7 @@
       { "id": "SCREW_FINE", "level": 1 },
       { "id": "GLARE", "level": 2 }
     ],
-    "components": [
-      [ [ "pipe", 1 ] ],
-      [ [ "plastic_chunk", 2 ] ],
-      [ [ "steel_tiny", 1, "LIST" ] ],
-      [ [ "spring", 1 ] ]
-    ]
+    "components": [ [ [ "pipe", 1 ] ], [ [ "plastic_chunk", 2 ] ], [ [ "steel_tiny", 1, "LIST" ] ], [ [ "spring", 1 ] ] ]
   }
 ]
+

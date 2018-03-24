@@ -13,11 +13,7 @@
     "symbol": ")",
     "color": "brown",
     "contains": 1,
-    "use_action": {
-      "type": "bandolier",
-      "capacity": 500,
-      "ammo": [ "nail" ]
-    }
+    "use_action": { "type": "bandolier", "capacity": 500, "ammo": [ "nail" ] }
   },
   {
     "id": "ammo_box_9mm",
@@ -27,11 +23,7 @@
     "name": "9mm ammo box",
     "name_plural": "9mm ammo boxes",
     "description": "A small cardboard box to store 9mm rounds.",
-    "use_action": {
-      "type": "bandolier",
-      "capacity": 200,
-      "ammo": [ "9mm", "9x18" ]
-    }
+    "use_action": { "type": "bandolier", "capacity": 200, "ammo": [ "9mm", "9x18" ] }
   },
   {
     "id": "ammo_box_shot",
@@ -41,11 +33,7 @@
     "name": "shotshell ammo box",
     "name_plural": "shotshell ammo boxes",
     "description": "A small cardboard box to store shotshell.",
-    "use_action": {
-      "type": "bandolier",
-      "capacity": 80,
-      "ammo": [ "shot" ]
-    }
+    "use_action": { "type": "bandolier", "capacity": 80, "ammo": [ "shot" ] }
   },
   {
     "id": "ammo_box_223",
@@ -55,11 +43,7 @@
     "name": "5.56 ammo box",
     "name_plural": "shotshell ammo boxes",
     "description": "A small cardboard box to store 5.56mm rounds.",
-    "use_action": {
-      "type": "bandolier",
-      "capacity": 80,
-      "ammo": [ "223" ]
-    }
+    "use_action": { "type": "bandolier", "capacity": 80, "ammo": [ "223" ] }
   },
   {
     "id": "ammo_box_50",
@@ -69,10 +53,7 @@
     "name": ".50 ammo box",
     "name_plural": "shotshell ammo boxes",
     "description": "A small cardboard box to store .50 rounds.",
-    "use_action": {
-      "type": "bandolier",
-      "capacity": 40,
-      "ammo": [ "50" ]
-    }
+    "use_action": { "type": "bandolier", "capacity": 40, "ammo": [ "50" ] }
   }
 ]
+

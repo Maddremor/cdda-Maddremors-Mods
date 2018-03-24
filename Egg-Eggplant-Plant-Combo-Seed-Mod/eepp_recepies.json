@@ -10,10 +10,7 @@
     "time": 5000,
     "autolearn": true,
     "qualities": [ { "id": "HAMMER", "level": 1 } ],
-    "components": [
-      [ [ "eepp_seed_eggplant", 1 ] ],
-      [ [ "egg_bird", 1 ] ],
-      [ [ "mutagen", 1 ] ]
-    ]
+    "components": [ [ [ "eepp_seed_eggplant", 1 ] ], [ [ "egg_bird", 1 ] ], [ [ "mutagen", 1 ] ] ]
   }
 ]
+
