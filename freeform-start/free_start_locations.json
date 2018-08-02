@@ -10,6 +10,12 @@
     "ident": "museum",
     "name": "Museum",
     "target": "museum"
+  },
+  {
+    "type": "start_location",
+    "ident": "cathedral",
+    "name": "Cathedral",
+    "target": "cathedral_1_SW"
   }
 ]
 
