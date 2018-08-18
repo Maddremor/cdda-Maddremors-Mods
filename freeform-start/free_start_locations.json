@@ -16,6 +16,11 @@
     "ident": "cathedral",
     "name": "Cathedral",
     "target": "cathedral_1_SW"
+  },
+  {
+    "type": "start_location",
+    "ident": "recyclecenter",
+    "name": "Recycling Center",
+    "target": "recyclecenter"
   }
 ]
-
