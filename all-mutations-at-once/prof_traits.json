@@ -98,5 +98,16 @@
     "purifiable": false,
     "starting_trait": true,
     "profession": true
+  },
+  {
+    "type": "mutation",
+    "id": "PROF_DICEMASTER",
+    "name": "Dungeon Master",
+    "points": 0,
+    "description": "Weeks spent picking through manuals and researching topics you aren't versed in has taught you to find what you need to know more quickly. You read slightly faster, and suffer no reading time penalty for books too complex for you to easily understand.",
+    "valid": false,
+    "purifiable": false,
+    "profession": true,
+    "cancels": [ "ILLITERATE" ]
   }
 ]
