@@ -1,10 +1,10 @@
 [
   {
-    "id": "madd_steel_compactor",
+    "id": "madd_recycler",
     "type": "GENERIC",
     "category": "veh_parts",
-    "name": "steel compactor",
-    "description": "A large machine capable of breaking down steel items and extrudning differnt sizes of metal.",
+    "name": "metal compactor",
+    "description": "A hydraulic compactor that can accept items made of various metals, and press them into basic shapes, ready for further crafting. This one is not assembled, and can thus not be used.",
     "weight": 500000,
     "volume": 1000,
     "price": 500000,
