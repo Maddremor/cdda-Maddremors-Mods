@@ -1,7 +1,7 @@
 [
   {
     "type": "recipe",
-    "result": "sausage_wasteland",
+    "result": "sausage_wasteland_raw",
     "category": "CC_FOOD",
     "subcategory": "CSC_FOOD_MEAT",
     "skill_used": "cooking",
@@ -10,7 +10,6 @@
     "autolearn": true,
     "batch_time_factors": [ 83, 3 ],
     "qualities": [ { "id": "CUT", "level": 1 }, { "id": "COOK", "level": 1 } ],
-    "tools": [ [ [ "char_smoker", 10 ] ] ],
     "components": [
       [ [ "offal", 4 ] ],
       [
