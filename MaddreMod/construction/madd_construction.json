@@ -23,12 +23,12 @@
   },
   {
     "type": "construction",
-    "description": "Assemble steel compactor",
+    "description": "Assemble metal compactor",
     "category": "FURN",
     "required_skills": [ [ "mechanics", 5 ] ],
     "time": 30,
     "qualities": [ [ { "id": "WRENCH", "level": 2 } ] ],
-    "components": [ [ [ "madd_steel_compactor", 1 ] ] ],
+    "components": [ [ [ "madd_recycler", 1 ] ] ],
     "pre_special": "check_empty",
     "post_terrain": "t_recycler"
   },
