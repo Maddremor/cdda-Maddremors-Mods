@@ -1,28 +1,6 @@
 [
   {
     "type": "construction",
-    "description": "Fill shallow ditch",
-    "category": "DIG",
-    "required_skills": [ [ "survival", 0 ] ],
-    "time": 30,
-    "qualities": [ [ { "id": "CONTAIN", "level": 1 } ] ],
-    "components": [ [ [ "water", 2000 ], [ "water_clean", 2000 ] ] ],
-    "pre_terrain": "t_pit_shallow",
-    "post_terrain": "t_water_sh"
-  },
-  {
-    "type": "construction",
-    "description": "Fill canal",
-    "category": "DIG",
-    "required_skills": [ [ "survival", 0 ] ],
-    "time": 30,
-    "qualities": [ [ { "id": "CONTAIN", "level": 1 } ] ],
-    "components": [ [ [ "water", 4000 ], [ "water_clean", 4000 ] ] ],
-    "pre_terrain": "t_pit",
-    "post_terrain": "t_water_dp"
-  },
-  {
-    "type": "construction",
     "description": "Assemble metal compactor",
     "category": "FURN",
     "required_skills": [ [ "mechanics", 5 ] ],
@@ -43,4 +21,3 @@
     "post_terrain": "f_crate_c"
   }
 ]
-
