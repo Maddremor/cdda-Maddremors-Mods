@@ -1,9 +1,12 @@
 [
   {
     "id": "ksg",
+    "name": "Kel-Tec KSG",
+    "name_plural": "Kel-Tec KSG",
     "copy-from": "ksg",
     "type": "GUN",
     "clip_size": 14,
+    "built_in_mods": [  ],
     "valid_mod_locations": [
       [ "accessories", 4 ],
       [ "barrel", 1 ],
@@ -26,6 +29,7 @@
     "price": 78000,
     "durability": 4,
     "clip_size": 14,
+    "built_in_mods": [  ],
     "valid_mod_locations": [
       [ "accessories", 4 ],
       [ "barrel", 1 ],

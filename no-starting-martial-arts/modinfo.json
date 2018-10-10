@@ -1,0 +1,13 @@
+{
+  "type": "MOD_INFO",
+  "mod-type": "SUPPLEMENTAL",
+  "ident": "no_starting_martial_arts",
+  "name": "No Starting Martial Arts/",
+  "author": "Maddremor",
+  "description": "Removes martial arts traits from character generation. Does not affects proffesions that start with MA-styles.",
+  "path": "",
+  "dependencies": [
+    "dda"
+  ]
+}
+
