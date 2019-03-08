@@ -1,0 +1,12 @@
+{
+  "type": "MOD_INFO",
+  "mod-type": "SUPPLEMENTAL",
+  "ident": "munchkin_mutant",
+  "name": "Munchkin Mutant",
+  "author": "Maddremor",
+  "description": "Less resctricted mutation conflicts.",
+  "path": "",
+  "dependencies": [
+    "dda"
+  ]
+}
