@@ -8,7 +8,7 @@
     "description": "Removes dual shotgun magazines.",
     "category": "items",
     "path": "",
-    "dependencies": [ "dda", "modern_weapon" ]
+    "dependencies": [ "dda" ]
   }
 ]
 
