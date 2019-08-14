@@ -1,0 +1,10 @@
+[
+  {
+    "type": "MOD_INFO",
+    "ident": "munchkin_mage",
+    "name": "Munchkin Mage",
+    "description": "No class excusivity for spellcasters from the Magiclysm mod.",
+    "category": "misc_additions",
+    "dependencies": [ "dda", "magiclysm" ]
+  }
+]

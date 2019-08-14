@@ -1,252 +1,37 @@
 [
   {
-    "id": "l_sp_45_after",
-    "copy-from": "l_sp_45",
-    "type": "GUN",
-    "name": "aftermarket L39-460",
-    "description": "Developed as a testament to the L39 family of pistols' strength, this hefty pistol chambers powerful .460 Rowland. Notably, normal .45ACP can also be fired through the weapon. This one has been modified and can accept aftermarket modifications at the cost of a broken warranty.",
-    "delete": { "built_in_mods": [ "lead_holo_sight", "muzzle_brake", "lead_laser_sight" ] },
-    "valid_mod_locations": [
-      [ "accessories", 2 ],
-      [ "barrel", 1 ],
-      [ "bore", 1 ],
-      [ "grip", 1 ],
-      [ "mechanism", 4 ],
-      [ "magazine", 1 ],
-      [ "muzzle", 1 ],
-      [ "rail", 1 ],
-      [ "sights", 1 ],
-      [ "stock", 1 ],
-      [ "underbarrel", 1 ]
-    ]
-  },
-  {
-    "id": "l_mp_45_after",
-    "copy-from": "l_mp_45",
-    "type": "GUN",
-    "name": "aftermarket L39B-45",
-    "description": "After the success of their 9x19mm machine pistol, Leadworks LLC developed the L39B-460 from their .460 Rowland semi-autos, intending them to be used with .45ACP.  Because it shares most of its parts with the L39-460, this variant retains the ability to fire fearsome .460 Rowland, though users are strongly advised not to do so during automatic fire. This one has been modified and can accept aftermarket modifications at the cost of a broken warranty.",
-    "delete": { "built_in_mods": [ "lead_holo_sight", "muzzle_brake", "lead_laser_sight" ] },
-    "valid_mod_locations": [
-      [ "accessories", 2 ],
-      [ "barrel", 1 ],
-      [ "bore", 1 ],
-      [ "grip", 1 ],
-      [ "mechanism", 4 ],
-      [ "magazine", 1 ],
-      [ "muzzle", 1 ],
-      [ "rail", 1 ],
-      [ "sights", 1 ],
-      [ "stock", 1 ],
-      [ "underbarrel", 1 ]
-    ]
-  },
-  {
-    "id": "l_enforcer_45_after",
-    "copy-from": "l_enforcer_45",
-    "type": "GUN",
-    "name": "aftermarket L2031 Enforcer",
-    "name_plural": "aftermarket L2031 Enforcer",
-    "description": "An \"autorevolver\", this Leadworks LLC six-shooter combines the ease-of-action of a semi-auto with the ease-of-reloading and style of a revolver.  In addition to ubiquitous .45 ACP, the Enforcer also fires powerful .460 Rowland, offering .44 Magnum performance in a smaller package.  It achieved overnight stardom when it appeared in \"Treasure Trail\", a popular space-Western series. This one has been modified and can accept aftermarket modifications at the cost of a broken warranty.",
-    "delete": { "built_in_mods": [ "lead_holo_sight", "lead_laser_sight" ] },
-    "valid_mod_locations": [
-      [ "accessories", 4 ],
-      [ "barrel", 1 ],
-      [ "bore", 1 ],
-      [ "grip", 1 ],
-      [ "mechanism", 4 ],
-      [ "muzzle", 1 ],
-      [ "rail", 1 ],
-      [ "sights", 1 ],
-      [ "stock", 1 ]
-    ]
-  },
-  {
-    "id": "l_bak_223_after",
+    "id": "l_bak_223",
     "copy-from": "l_bak_223",
+    "name": "L2037 Backup",
     "type": "GUN",
-    "name": "aftermarket L2037 Backup",
-    "name_plural": "aftermarket L2037 Backups",
-    "//": "Most real-life autorevolvers use 6-7.5 inch barrel, but this one's mentioned to be particularly massive.",
-    "description": "The logical extension of Leadworks' autorevolver series, this massive 'sidearm' fires 5.56 NATO to share ammo with a soldier's rifle.  The muzzle flash and report of this 5-shot revolver are incredible, producing ballistics similar to .357 Magnum.  This one has been modified and can accept aftermarket modifications at the cost of a broken warranty.",
-    "delete": { "built_in_mods": [ "lead_holo_sight", "lead_laser_sight" ] },
-    "valid_mod_locations": [
-      [ "accessories", 4 ],
-      [ "barrel", 1 ],
-      [ "bore", 1 ],
-      [ "grip", 1 ],
-      [ "mechanism", 4 ],
-      [ "muzzle", 1 ],
-      [ "rail", 1 ],
-      [ "sights", 1 ],
-      [ "stock", 1 ]
-    ]
+    "extend": { "valid_mod_locations": [ [ "grip mount", 1 ], [ "rail mount", 1 ], [ "stock mount", 1 ] ] }
   },
   {
-    "id": "l_car_223_after",
+    "id": "l_car_223",
     "copy-from": "l_car_223",
+    "name": "L523-CAR carbine",
     "type": "GUN",
-    "name": "aftermarket L523-CAR carbine",
-    "description": "Leadworks LLC's bullpup L523 platform utilizes the ubiquitous 5.56 round in multiple applications, and is designed to part-swap quickly, safely, and effectively from one to the next. This one has been modified and can accept aftermarket modifications at the cost of a broken warranty and an inability to reconfigure it.",
-    "delete": { "built_in_mods": [ "lead_red_dot_sight", "lead_laser_sight", "lead_u_shotgun", "lead_stabilizer" ] },
-    "valid_mod_locations": [
-      [ "accessories", 4 ],
-      [ "barrel", 1 ],
-      [ "bore", 1 ],
-      [ "grip", 1 ],
-      [ "mechanism", 4 ],
-      [ "magazine", 1 ],
-      [ "muzzle", 1 ],
-      [ "rail", 1 ],
-      [ "sights", 1 ],
-      [ "stock", 1 ],
-      [ "underbarrel", 1 ]
-    ]
+    "extend": { "valid_mod_locations": [ [ "grip mount", 1 ], [ "stock mount", 1 ] ] }
   },
   {
-    "id": "l_dsr_223_after",
+    "id": "l_dsr_223",
     "copy-from": "l_dsr_223",
+    "name": "L523-DSR rifle",
     "type": "GUN",
-    "name": "aftermarket L523-DSR rifle",
-    "description": "Leadworks LLC's bullpup L523 platform utilizes the ubiquitous 5.56 round in multiple applications, and is designed to part-swap quickly, safely, and effectively from one to the next. This one has been modified and can accept aftermarket modifications at the cost of a broken warranty and an inability to reconfigure it.",
-    "delete": { "built_in_mods": [ "lead_rifle_scope", "lead_bipod", "lead_grip", "lead_stabilizer" ] },
-    "valid_mod_locations": [
-      [ "accessories", 4 ],
-      [ "barrel", 1 ],
-      [ "bore", 1 ],
-      [ "grip", 1 ],
-      [ "mechanism", 4 ],
-      [ "magazine", 1 ],
-      [ "muzzle", 1 ],
-      [ "rail", 1 ],
-      [ "sights", 1 ],
-      [ "stock", 1 ],
-      [ "underbarrel", 1 ]
-    ]
+    "extend": { "valid_mod_locations": [ [ "grip mount", 1 ], [ "stock mount", 1 ] ] }
   },
   {
-    "id": "l_lmg_223_after",
+    "id": "l_lmg_223",
     "copy-from": "l_lmg_223",
+    "name": "L523-LMG",
     "type": "GUN",
-    "name": "aftermarket L523-LMG",
-    "description": "Leadworks LLC's bullpup L523 platform utilizes the ubiquitous 5.56 round in multiple applications, and is designed to part-swap quickly, safely, and effectively from one to the next. This one has been modified and can accept aftermarket modifications at the cost of a broken warranty and an inability to reconfigure it.",
-    "delete": { "built_in_mods": [ "lead_acog_scope", "lead_bipod", "lead_grip", "lead_stabilizer" ] },
-    "valid_mod_locations": [
-      [ "accessories", 4 ],
-      [ "barrel", 1 ],
-      [ "bore", 1 ],
-      [ "grip", 1 ],
-      [ "mechanism", 4 ],
-      [ "magazine", 1 ],
-      [ "muzzle", 1 ],
-      [ "rail", 1 ],
-      [ "sights", 1 ],
-      [ "stock", 1 ],
-      [ "underbarrel", 1 ]
-    ]
+    "extend": { "valid_mod_locations": [ [ "grip mount", 1 ], [ "stock mount", 1 ] ] }
   },
   {
-    "id": "l_mbr_223_after",
+    "id": "l_mbr_223",
     "copy-from": "l_mbr_223",
+    "name": "L523-MBR rifle",
     "type": "GUN",
-    "name": "aftermarket L523-MBR rifle",
-    "description": "Leadworks LLC's bullpup L523 platform utilizes the ubiquitous 5.56 round in multiple applications, and is designed to part-swap quickly, safely, and effectively from one to the next. This one has been modified and can accept aftermarket modifications at the cost of a broken warranty and an inability to reconfigure it.",
-    "delete": { "built_in_mods": [ "lead_acog_scope", "lead_red_dot_sight", "lead_grip", "lead_glm", "lead_stabilizer" ] },
-    "valid_mod_locations": [
-      [ "accessories", 4 ],
-      [ "barrel", 1 ],
-      [ "bore", 1 ],
-      [ "grip", 1 ],
-      [ "mechanism", 4 ],
-      [ "magazine", 1 ],
-      [ "muzzle", 1 ],
-      [ "rail", 1 ],
-      [ "sights", 1 ],
-      [ "stock", 1 ],
-      [ "underbarrel", 1 ]
-    ]
-  },
-  {
-    "id": "l_lookout_9mm_after",
-    "copy-from": "l_lookout_9mm",
-    "type": "GUN",
-    "name": "aftermarket L2032 Lookout",
-    "name_plural": "aftermarket L2032 Lookout",
-    "delete": { "built_in_mods": [ "lead_red_dot_sight", "lead_laser_sight" ] },
-    "description": "After the Enforcer's success, Leadworks LLC reworked their autorevolver design to cater to the 9x19mm market.  The Lookout takes advantage of the smaller 9x19mm to hold a seventh round, without sacrificing the ease of handling or reloading the Enforcer made legendary.  This one has been modified and can accept aftermarket modifications at the cost of a broken warranty.",
-    "valid_mod_locations": [
-      [ "accessories", 4 ],
-      [ "barrel", 1 ],
-      [ "bore", 1 ],
-      [ "grip", 1 ],
-      [ "mechanism", 4 ],
-      [ "muzzle", 1 ],
-      [ "rail", 1 ],
-      [ "sights", 1 ],
-      [ "stock", 1 ]
-    ]
-  },
-  {
-    "id": "l_mp_9mm_after",
-    "copy-from": "l_mp_9mm",
-    "type": "GUN",
-    "name": "aftermarket L39B",
-    "description": "A selective-firing 9x19mm handgun introduced by Leadworks LLC's, L39B provides accurate single-shot placement as well as controllable short-range firepower with its three-round burst mode.  Users praised its accuracy and fearsome appearance.   This one has been modified and can accept aftermarket modifications at the cost of a broken warranty.",
-    "delete": { "built_in_mods": [ "lead_red_dot_sight", "lead_laser_sight" ] },
-    "valid_mod_locations": [
-      [ "accessories", 4 ],
-      [ "barrel", 1 ],
-      [ "bore", 1 ],
-      [ "grip", 1 ],
-      [ "mechanism", 4 ],
-      [ "magazine", 1 ],
-      [ "muzzle", 1 ],
-      [ "rail", 1 ],
-      [ "sights", 1 ],
-      [ "stock", 1 ],
-      [ "underbarrel", 1 ]
-    ]
-  },
-  {
-    "id": "l_sp_9mm_after",
-    "copy-from": "l_sp_9mm",
-    "type": "GUN",
-    "name": "aftermarket L39",
-    "description": "A semiautomatic 9x19mm handgun introduced by Leadworks LLC's, L39 provides accurate single-shot placement in a very robust frame.  Several urban legends describe using it in ways that would have destroyed a lesser weapon.  This one has been modified and can accept aftermarket modifications at the cost of a broken warranty.",
-    "delete": { "built_in_mods": [ "lead_red_dot_sight", "lead_laser_sight" ] },
-    "valid_mod_locations": [
-      [ "accessories", 4 ],
-      [ "barrel", 1 ],
-      [ "bore", 1 ],
-      [ "grip", 1 ],
-      [ "mechanism", 4 ],
-      [ "magazine", 1 ],
-      [ "muzzle", 1 ],
-      [ "rail", 1 ],
-      [ "sights", 1 ],
-      [ "stock", 1 ],
-      [ "underbarrel", 1 ]
-    ]
-  },
-  {
-    "id": "l_def_12_after",
-    "copy-from": "l_def_12",
-    "type": "GUN",
-    "name": "aftermarket L12 Defender",
-    "name_plural": "aftermarket L12 Defender",
-    "description": "Leadworks LLC's sole shotgun offering to date is surprisingly compact thanks to its moving barrel and forward-back pump mechanism.  This one has been modified and can accept aftermarket modifications at the cost of a broken warranty.",
-    "delete": { "built_in_mods": [ "lead_red_dot_sight", "lead_laser_sight" ] },
-    "valid_mod_locations": [
-      [ "accessories", 4 ],
-      [ "barrel", 1 ],
-      [ "bore", 1 ],
-      [ "grip", 1 ],
-      [ "mechanism", 4 ],
-      [ "muzzle", 1 ],
-      [ "rail", 1 ],
-      [ "sights", 1 ],
-      [ "stock", 1 ],
-      [ "underbarrel", 1 ]
-    ]
+    "extend": { "valid_mod_locations": [ [ "grip mount", 1 ], [ "stock mount", 1 ] ] }
   }
 ]

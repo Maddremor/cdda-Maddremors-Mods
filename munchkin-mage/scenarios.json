@@ -1,0 +1,10 @@
+[
+  {
+    "type": "scenario",
+    "ident": "magic_basement",
+    "copy-from": "magic_basement",
+    "name": "The Wizard's Apprentice",
+    "start_name": "Wizard's Urban Abode",
+    "extend": { "allowed_locs": [ "magic_shop" ] }
+  }
+]
