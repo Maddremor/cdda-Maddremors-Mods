@@ -3,56 +3,64 @@
     "type": "mutation",
     "id": "MAGUS",
     "copy-from": "MAGUS",
-    "name": "Magus",
+    "name": { "str": "M-Magus" },
+    "starting_trait": true,
     "cancels": [  ]
   },
   {
     "type": "mutation",
     "id": "ANIMIST",
     "copy-from": "ANIMIST",
-    "name": "Animist",
+    "name": { "str": "M-Animist" },
+    "starting_trait": true,
     "cancels": [  ]
   },
   {
     "type": "mutation",
     "id": "KELVINIST",
     "copy-from": "KELVINIST",
-    "name": "Kelvinist",
+    "name": { "str": "M-Kelvinist" },
+    "starting_trait": true,
     "cancels": [  ]
   },
   {
     "type": "mutation",
     "id": "STORMSHAPER",
     "copy-from": "STORMSHAPER",
-    "name": "Stormshaper",
+    "name": { "str": "M-Stormshaper" },
+    "starting_trait": true,
     "cancels": [  ]
   },
   {
     "type": "mutation",
     "id": "TECHNOMANCER",
     "copy-from": "TECHNOMANCER",
-    "name": "Technomancer",
+    "name": { "str": "M-Technomancer" },
+    "starting_trait": true,
     "cancels": [  ]
   },
   {
     "type": "mutation",
     "id": "EARTHSHAPER",
     "copy-from": "EARTHSHAPER",
-    "name": "Earthshaper",
+    "name": { "str": "M-Earthshaper" },
+    "starting_trait": true,
     "cancels": [  ]
   },
   {
     "type": "mutation",
     "id": "BIOMANCER",
     "copy-from": "BIOMANCER",
-    "name": "Biomancer",
+    "name": { "str": "M-Biomancer" },
+    "starting_trait": true,
     "cancels": [  ]
   },
   {
     "type": "mutation",
     "id": "DRUID",
     "copy-from": "DRUID",
-    "name": "Druid",
+    "name": { "str": "M-Druid" },
+    "starting_trait": true,
     "cancels": [  ]
   }
 ]
