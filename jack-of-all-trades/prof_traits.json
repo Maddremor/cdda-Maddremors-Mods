@@ -4,55 +4,55 @@
     "id": "PROF_POLICE",
     "copy-from": "PROF_POLICE",
     "name": { "str": "P-Police Officer" },
-    "starting_trait": true,
+    "starting_trait": true
   },
   {
     "type": "mutation",
     "id": "PROF_HELI_PILOT",
     "copy-from": "PROF_HELI_PILOT",
     "name": { "str": "P-Helicopter Pilot" },
-    "starting_trait": true,
+    "starting_trait": true
   },
   {
     "type": "mutation",
     "id": "PROF_SWAT",
     "copy-from": "PROF_SWAT",
     "name": { "str": "P-SWAT Officer" },
-    "starting_trait": true,
+    "starting_trait": true
   },
   {
     "type": "mutation",
     "id": "PROF_CYBERCOP",
     "copy-from": "PROF_CYBERCOP",
     "name": { "str": "P-Bionic Officer" },
-    "starting_trait": true,
+    "starting_trait": true
   },
   {
     "type": "mutation",
     "id": "PROF_PD_DET",
     "copy-from": "PROF_PD_DET",
     "name": { "str": "P-Police Detective" },
-    "starting_trait": true,
+    "starting_trait": true
   },
   {
     "type": "mutation",
     "id": "PROF_MED",
     "copy-from": "PROF_MED",
     "name": { "str": "P-MD" },
-    "starting_trait": true,
+    "starting_trait": true
   },
   {
     "type": "mutation",
     "id": "PROF_AUTODOC",
     "copy-from": "PROF_AUTODOC",
     "name": { "str": "P-Autodoc Specialist" },
-    "starting_trait": true,
+    "starting_trait": true
   },
   {
     "type": "mutation",
     "id": "PROF_DICEMASTER",
     "copy-from": "PROF_DICEMASTER",
     "name": { "str": "P-Dungeon Master" },
-    "starting_trait": true,
+    "starting_trait": true
   }
 ]
