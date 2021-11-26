@@ -1,0 +1,18 @@
+[
+  {
+    "type": "MOD_INFO",
+    "ident": "archmage",
+    "name": "Archmage",
+    "description": "Adds a \"hobby\" that has every base magic class.",
+    "category": "rebalance",
+    "dependencies": [ "dda", "magiclysm", "magiclysm_no_class_limit" ]
+  },
+  {
+    "type": "profession",
+    "subtype": "hobby",
+    "id": "cheat_archmage",
+    "name": "archmage",
+    "description": "You know all magic somehow. Neat!",
+    "points": 0
+  }
+]
