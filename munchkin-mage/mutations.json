@@ -1,0 +1,51 @@
+[
+  {
+    "type": "mutation",
+    "id": "DRAGON_SCALES_BLACK",
+    "copy-from": "DRAGON_SCALES_BLACK",
+    "purifiable": false,
+    "threshreq": [  ]
+  },
+  {
+    "type": "mutation",
+    "id": "DRAGON_STR4",
+    "copy-from": "DRAGON_STR4",
+    "purifiable": false,
+    "threshreq": [  ]
+  },
+  {
+    "type": "mutation",
+    "id": "DRAGON_BREATH_BLACK",
+    "copy-from": "DRAGON_BREATH_BLACK",
+    "purifiable": false,
+    "threshreq": [  ]
+  },
+  {
+    "type": "mutation",
+    "id": "DRAGON_MAGIC",
+    "copy-from": "DRAGON_MAGIC",
+    "purifiable": false,
+    "threshreq": [  ]
+  },
+  {
+    "type": "mutation",
+    "id": "DRAGON_SPELLS",
+    "copy-from": "DRAGON_SPELLS",
+    "purifiable": false,
+    "threshreq": [  ]
+  },
+  {
+    "type": "mutation",
+    "id": "DRAGON_SCALES_BLACK",
+    "copy-from": "DRAGON_SCALES_BLACK",
+    "purifiable": false,
+    "threshreq": [  ]
+  },
+  {
+    "type": "mutation",
+    "id": "DRAGON_SCALES_BLACK",
+    "copy-from": "DRAGON_SCALES_BLACK",
+    "purifiable": false,
+    "threshreq": [  ]
+  }
+]
