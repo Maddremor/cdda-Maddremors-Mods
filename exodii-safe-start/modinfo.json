@@ -1,0 +1,24 @@
+[
+  {
+    "type": "MOD_INFO",
+    "mod-type": "SUPPLEMENTAL",
+    "ident": "exodii-safe-start",
+    "name": "Safe Place Exodii",
+    "author": "Maddremor",
+    "description": "Modifies the Safe Place scenario to allow starting outside the Exodii compound",
+    "path": "",
+    "dependencies": [ "dda" ]
+  },
+  {
+    "type": "start_location",
+    "id": "sloc_exodii_base_x0y0z0",
+    "name": "Exodii Compound",
+    "terrain": [ "exodii_base_x0y0z0" ]
+  },
+  {
+    "type": "scenario",
+    "copy-from": "isolationist",
+    "id": "isolationist",
+    "extend": { "allowed_locs": [ "sloc_exodii_base_x0y0z0" ] }
+  }
+]
