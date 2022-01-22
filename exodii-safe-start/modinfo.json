@@ -11,14 +11,14 @@
   },
   {
     "type": "start_location",
-    "id": "sloc_exodii_base_x0y0z0",
+    "id": "sloc_exodii_base_x0y3z0",
     "name": "Exodii Compound",
-    "terrain": [ "exodii_base_x0y0z0" ]
+    "terrain": [ "exodii_base_x0y3z0" ]
   },
   {
     "type": "scenario",
     "copy-from": "isolationist",
     "id": "isolationist",
-    "extend": { "allowed_locs": [ "sloc_exodii_base_x0y0z0" ] }
+    "extend": { "allowed_locs": [ "sloc_exodii_base_x0y3z0" ] }
   }
 ]
