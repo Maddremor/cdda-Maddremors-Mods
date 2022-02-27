@@ -13,6 +13,7 @@
     "id": "cheat_archmage",
     "name": "archmage",
     "description": "You know all magic somehow. Neat!",
-    "points": 0
+    "points": -99,
+    "traits": [ "MAGUS", "ANIMIST", "KELVINIST", "STORMSHAPER", "TECHNOMANCER", "EARTHSHAPER", "BIOMANCER", "DRUID" ]
   }
 ]
